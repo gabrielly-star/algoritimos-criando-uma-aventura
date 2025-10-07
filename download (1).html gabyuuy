@@ -1,0 +1,726 @@
+	<!DOCTYPE html>
+		<!--[if IE 8]>
+	<html class="ie ie8" lang="pt-BR" prefix="og: https://ogp.me/ns#"> <![endif]-->
+	<!--[if IE 9]>
+	<html class="ie ie9" lang="pt-BR" prefix="og: https://ogp.me/ns#"> <![endif]-->
+	<!--[if gt IE 9]><!-->
+<html lang="pt-BR" prefix="og: https://ogp.me/ns#"> <!--<![endif]-->
+	<head><meta charset="UTF-8"><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>(()=>{class RocketLazyLoadScripts{constructor(){this.v="1.2.6",this.triggerEvents=["keydown","mousedown","mousemove","touchmove","touchstart","touchend","wheel"],this.userEventHandler=this.t.bind(this),this.touchStartHandler=this.i.bind(this),this.touchMoveHandler=this.o.bind(this),this.touchEndHandler=this.h.bind(this),this.clickHandler=this.u.bind(this),this.interceptedClicks=[],this.interceptedClickListeners=[],this.l(this),window.addEventListener("pageshow",(t=>{this.persisted=t.persisted,this.everythingLoaded&&this.m()})),this.CSPIssue=sessionStorage.getItem("rocketCSPIssue"),document.addEventListener("securitypolicyviolation",(t=>{this.CSPIssue||"script-src-elem"!==t.violatedDirective||"data"!==t.blockedURI||(this.CSPIssue=!0,sessionStorage.setItem("rocketCSPIssue",!0))})),document.addEventListener("DOMContentLoaded",(()=>{this.k()})),this.delayedScripts={normal:[],async:[],defer:[]},this.trash=[],this.allJQueries=[]}p(t){document.hidden?t.t():(this.triggerEvents.forEach((e=>window.addEventListener(e,t.userEventHandler,{passive:!0}))),window.addEventListener("touchstart",t.touchStartHandler,{passive:!0}),window.addEventListener("mousedown",t.touchStartHandler),document.addEventListener("visibilitychange",t.userEventHandler))}_(){this.triggerEvents.forEach((t=>window.removeEventListener(t,this.userEventHandler,{passive:!0}))),document.removeEventListener("visibilitychange",this.userEventHandler)}i(t){"HTML"!==t.target.tagName&&(window.addEventListener("touchend",this.touchEndHandler),window.addEventListener("mouseup",this.touchEndHandler),window.addEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.addEventListener("mousemove",this.touchMoveHandler),t.target.addEventListener("click",this.clickHandler),this.L(t.target,!0),this.S(t.target,"onclick","rocket-onclick"),this.C())}o(t){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler),t.target.removeEventListener("click",this.clickHandler),this.L(t.target,!1),this.S(t.target,"rocket-onclick","onclick"),this.M()}h(){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler)}u(t){t.target.removeEventListener("click",this.clickHandler),this.L(t.target,!1),this.S(t.target,"rocket-onclick","onclick"),this.interceptedClicks.push(t),t.preventDefault(),t.stopPropagation(),t.stopImmediatePropagation(),this.M()}O(){window.removeEventListener("touchstart",this.touchStartHandler,{passive:!0}),window.removeEventListener("mousedown",this.touchStartHandler),this.interceptedClicks.forEach((t=>{t.target.dispatchEvent(new MouseEvent("click",{view:t.view,bubbles:!0,cancelable:!0}))}))}l(t){EventTarget.prototype.addEventListenerWPRocketBase=EventTarget.prototype.addEventListener,EventTarget.prototype.addEventListener=function(e,i,o){"click"!==e||t.windowLoaded||i===t.clickHandler||t.interceptedClickListeners.push({target:this,func:i,options:o}),(this||window).addEventListenerWPRocketBase(e,i,o)}}L(t,e){this.interceptedClickListeners.forEach((i=>{i.target===t&&(e?t.removeEventListener("click",i.func,i.options):t.addEventListener("click",i.func,i.options))})),t.parentNode!==document.documentElement&&this.L(t.parentNode,e)}D(){return new Promise((t=>{this.P?this.M=t:t()}))}C(){this.P=!0}M(){this.P=!1}S(t,e,i){t.hasAttribute&&t.hasAttribute(e)&&(event.target.setAttribute(i,event.target.getAttribute(e)),event.target.removeAttribute(e))}t(){this._(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this.R.bind(this)):this.R()}k(){let t=[];document.querySelectorAll("script[type=rocketlazyloadscript][data-rocket-src]").forEach((e=>{let i=e.getAttribute("data-rocket-src");if(i&&!i.startsWith("data:")){0===i.indexOf("//")&&(i=location.protocol+i);try{const o=new URL(i).origin;o!==location.origin&&t.push({src:o,crossOrigin:e.crossOrigin||"module"===e.getAttribute("data-rocket-type")})}catch(t){}}})),t=[...new Map(t.map((t=>[JSON.stringify(t),t]))).values()],this.T(t,"preconnect")}async R(){this.lastBreath=Date.now(),this.j(this),this.F(this),this.I(),this.W(),this.q(),await this.A(this.delayedScripts.normal),await this.A(this.delayedScripts.defer),await this.A(this.delayedScripts.async);try{await this.U(),await this.H(this),await this.J()}catch(t){console.error(t)}window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this.everythingLoaded=!0,this.D().then((()=>{this.O()})),this.N()}W(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((t=>{t.hasAttribute("data-rocket-src")?t.hasAttribute("async")&&!1!==t.async?this.delayedScripts.async.push(t):t.hasAttribute("defer")&&!1!==t.defer||"module"===t.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(t):this.delayedScripts.normal.push(t):this.delayedScripts.normal.push(t)}))}async B(t){if(await this.G(),!0!==t.noModule||!("noModule"in HTMLScriptElement.prototype))return new Promise((e=>{let i;function o(){(i||t).setAttribute("data-rocket-status","executed"),e()}try{if(navigator.userAgent.indexOf("Firefox/")>0||""===navigator.vendor||this.CSPIssue)i=document.createElement("script"),[...t.attributes].forEach((t=>{let e=t.nodeName;"type"!==e&&("data-rocket-type"===e&&(e="type"),"data-rocket-src"===e&&(e="src"),i.setAttribute(e,t.nodeValue))})),t.text&&(i.text=t.text),i.hasAttribute("src")?(i.addEventListener("load",o),i.addEventListener("error",(function(){i.setAttribute("data-rocket-status","failed-network"),e()})),setTimeout((()=>{i.isConnected||e()}),1)):(i.text=t.text,o()),t.parentNode.replaceChild(i,t);else{const i=t.getAttribute("data-rocket-type"),s=t.getAttribute("data-rocket-src");i?(t.type=i,t.removeAttribute("data-rocket-type")):t.removeAttribute("type"),t.addEventListener("load",o),t.addEventListener("error",(i=>{this.CSPIssue&&i.target.src.startsWith("data:")?(console.log("WPRocket: data-uri blocked by CSP -> fallback"),t.removeAttribute("src"),this.B(t).then(e)):(t.setAttribute("data-rocket-status","failed-network"),e())})),s?(t.removeAttribute("data-rocket-src"),t.src=s):t.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(t.text)))}}catch(i){t.setAttribute("data-rocket-status","failed-transform"),e()}}));t.setAttribute("data-rocket-status","skipped")}async A(t){const e=t.shift();return e&&e.isConnected?(await this.B(e),this.A(t)):Promise.resolve()}q(){this.T([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}T(t,e){var i=document.createDocumentFragment();t.forEach((t=>{const o=t.getAttribute&&t.getAttribute("data-rocket-src")||t.src;if(o&&!o.startsWith("data:")){const s=document.createElement("link");s.href=o,s.rel=e,"preconnect"!==e&&(s.as="script"),t.getAttribute&&"module"===t.getAttribute("data-rocket-type")&&(s.crossOrigin=!0),t.crossOrigin&&(s.crossOrigin=t.crossOrigin),t.integrity&&(s.integrity=t.integrity),i.appendChild(s),this.trash.push(s)}})),document.head.appendChild(i)}j(t){let e={};function i(i,o){return e[o].eventsToRewrite.indexOf(i)>=0&&!t.everythingLoaded?"rocket-"+i:i}function o(t,o){!function(t){e[t]||(e[t]={originalFunctions:{add:t.addEventListener,remove:t.removeEventListener},eventsToRewrite:[]},t.addEventListener=function(){arguments[0]=i(arguments[0],t),e[t].originalFunctions.add.apply(t,arguments)},t.removeEventListener=function(){arguments[0]=i(arguments[0],t),e[t].originalFunctions.remove.apply(t,arguments)})}(t),e[t].eventsToRewrite.push(o)}function s(e,i){let o=e[i];e[i]=null,Object.defineProperty(e,i,{get:()=>o||function(){},set(s){t.everythingLoaded?o=s:e["rocket"+i]=o=s}})}o(document,"DOMContentLoaded"),o(window,"DOMContentLoaded"),o(window,"load"),o(window,"pageshow"),o(document,"readystatechange"),s(document,"onreadystatechange"),s(window,"onload"),s(window,"onpageshow");try{Object.defineProperty(document,"readyState",{get:()=>t.rocketReadyState,set(e){t.rocketReadyState=e},configurable:!0}),document.readyState="loading"}catch(t){console.log("WPRocket DJE readyState conflict, bypassing")}}F(t){let e;function i(e){return t.everythingLoaded?e:e.split(" ").map((t=>"load"===t||0===t.indexOf("load.")?"rocket-jquery-load":t)).join(" ")}function o(o){function s(t){const e=o.fn[t];o.fn[t]=o.fn.init.prototype[t]=function(){return this[0]===window&&("string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=i(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{const e=arguments[0][t];delete arguments[0][t],arguments[0][i(t)]=e}))),e.apply(this,arguments),this}}o&&o.fn&&!t.allJQueries.includes(o)&&(o.fn.ready=o.fn.init.prototype.ready=function(e){return t.domReadyFired?e.bind(document)(o):document.addEventListener("rocket-DOMContentLoaded",(()=>e.bind(document)(o))),o([])},s("on"),s("one"),t.allJQueries.push(o)),e=o}o(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>e,set(t){o(t)}})}async H(t){const e=document.querySelector("script[data-webpack]");e&&(await async function(){return new Promise((t=>{e.addEventListener("load",t),e.addEventListener("error",t)}))}(),await t.K(),await t.H(t))}async U(){this.domReadyFired=!0;try{document.readyState="interactive"}catch(t){}await this.G(),document.dispatchEvent(new Event("rocket-readystatechange")),await this.G(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.G(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this.G(),window.dispatchEvent(new Event("rocket-DOMContentLoaded"))}async J(){try{document.readyState="complete"}catch(t){}await this.G(),document.dispatchEvent(new Event("rocket-readystatechange")),await this.G(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.G(),window.dispatchEvent(new Event("rocket-load")),await this.G(),window.rocketonload&&window.rocketonload(),await this.G(),this.allJQueries.forEach((t=>t(window).trigger("rocket-jquery-load"))),await this.G();const t=new Event("rocket-pageshow");t.persisted=this.persisted,window.dispatchEvent(t),await this.G(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted}),this.windowLoaded=!0}m(){document.onreadystatechange&&document.onreadystatechange(),window.onload&&window.onload(),window.onpageshow&&window.onpageshow({persisted:this.persisted})}I(){const t=new Map;document.write=document.writeln=function(e){const i=document.currentScript;i||console.error("WPRocket unable to document.write this: "+e);const o=document.createRange(),s=i.parentElement;let n=t.get(i);void 0===n&&(n=i.nextSibling,t.set(i,n));const c=document.createDocumentFragment();o.setStart(c,0),c.appendChild(o.createContextualFragment(e)),s.insertBefore(c,n)}}async G(){Date.now()-this.lastBreath>45&&(await this.K(),this.lastBreath=Date.now())}async K(){return document.hidden?new Promise((t=>setTimeout(t))):new Promise((t=>requestAnimationFrame(t)))}N(){this.trash.forEach((t=>t.remove()))}static run(){const t=new RocketLazyLoadScripts;t.p(t)}}RocketLazyLoadScripts.run()})();</script>
+				
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="pingback" href="https://mh1.com.br/xmlrpc.php"/>
+
+			<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	
+<!-- Otimização dos mecanismos de pesquisa pelo Rank Math PRO - https://rankmath.com/ -->
+<title>Uzumaki decepciona no episódio final: fãs criticam animação desastrosa - MH1 - Notícias de Games, Animes, Filmes, Jogos e mundo nerd</title><link rel="preload" data-rocket-preload as="style" href="https://fonts.googleapis.com/css?family=Archivo%3A400%2C600%2C700%2C500%7COswald%3A600%2C500%7CRoboto%3A400%2C500%7CLato%3A400&#038;display=swap" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo%3A400%2C600%2C700%2C500%7COswald%3A600%2C500%7CRoboto%3A400%2C500%7CLato%3A400&#038;display=swap" media="print" onload="this.media='all'" /><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo%3A400%2C600%2C700%2C500%7COswald%3A600%2C500%7CRoboto%3A400%2C500%7CLato%3A400&#038;display=swap" /></noscript>
+<meta name="description" content="A tão aguardada adaptação de Uzumaki, uma das obras mais icônicas do mestre do terror Junji Ito, foi alvo de críticas após a exibição de seu episódio final. O"/>
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://mh1.com.br/uzumaki-decepciona-no-episodio-final-fas-criticam-animacao-desastrosa/" />
+<meta property="og:locale" content="pt_BR" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Uzumaki decepciona no episódio final: fãs criticam animação desastrosa - MH1 - Notícias de Games, Animes, Filmes, Jogos e mundo nerd" />
+<meta property="og:description" content="A tão aguardada adaptação de Uzumaki, uma das obras mais icônicas do mestre do terror Junji Ito, foi alvo de críticas após a exibição de seu episódio final. O" />
+<meta property="og:url" content="https://mh1.com.br/uzumaki-decepciona-no-episodio-final-fas-criticam-animacao-desastrosa/" />
+<meta property="og:site_name" content="MH1" />
+<meta property="article:section" content="Animes" />
+<meta property="og:image" content="https://mh1.com.br/wp-content/uploads/2024/10/filters_quality95formatwebp-4.webp" />
+<meta property="og:image:secure_url" content="https://mh1.com.br/wp-content/uploads/2024/10/filters_quality95formatwebp-4.webp" />
+<meta property="og:image:width" content="960" />
+<meta property="og:image:height" content="540" />
+<meta property="og:image:alt" content="Uzumaki decepciona no episódio final: fãs criticam animação desastrosa" />
+<meta property="og:image:type" content="image/webp" />
+<meta property="article:published_time" content="2024-10-22T15:00:00-03:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Uzumaki decepciona no episódio final: fãs criticam animação desastrosa - MH1 - Notícias de Games, Animes, Filmes, Jogos e mundo nerd" />
+<meta name="twitter:description" content="A tão aguardada adaptação de Uzumaki, uma das obras mais icônicas do mestre do terror Junji Ito, foi alvo de críticas após a exibição de seu episódio final. O" />
+<meta name="twitter:image" content="https://mh1.com.br/wp-content/uploads/2024/10/filters_quality95formatwebp-4.webp" />
+<script type="application/ld+json" class="rank-math-schema-pro">{"@context":"https://schema.org","@graph":[{"@type":["NewsMediaOrganization","Organization"],"@id":"https://mh1.com.br/#organization","name":"WhoPress","url":"https://mh1.com.br","logo":{"@type":"ImageObject","@id":"https://mh1.com.br/#logo","url":"https://mh1.com.br/wp-content/uploads/2024/08/hora-da-raquete-logo-400.png","contentUrl":"https://mh1.com.br/wp-content/uploads/2024/08/hora-da-raquete-logo-400.png","caption":"MH1","inLanguage":"pt-BR"}},{"@type":"WebSite","@id":"https://mh1.com.br/#website","url":"https://mh1.com.br","name":"MH1","publisher":{"@id":"https://mh1.com.br/#organization"},"inLanguage":"pt-BR"},{"@type":"ImageObject","@id":"https://mh1.com.br/wp-content/uploads/2024/10/filters_quality95formatwebp-4.webp","url":"https://mh1.com.br/wp-content/uploads/2024/10/filters_quality95formatwebp-4.webp","width":"960","height":"540","inLanguage":"pt-BR"},{"@type":"WebPage","@id":"https://mh1.com.br/uzumaki-decepciona-no-episodio-final-fas-criticam-animacao-desastrosa/#webpage","url":"https://mh1.com.br/uzumaki-decepciona-no-episodio-final-fas-criticam-animacao-desastrosa/","name":"Uzumaki decepciona no epis\u00f3dio final: f\u00e3s criticam anima\u00e7\u00e3o desastrosa - MH1 - Not\u00edcias de Games, Animes, Filmes, Jogos e mundo nerd","datePublished":"2024-10-22T15:00:00-03:00","dateModified":"2024-10-22T15:00:00-03:00","isPartOf":{"@id":"https://mh1.com.br/#website"},"primaryImageOfPage":{"@id":"https://mh1.com.br/wp-content/uploads/2024/10/filters_quality95formatwebp-4.webp"},"inLanguage":"pt-BR"},{"@type":"Person","@id":"https://mh1.com.br/author/gabrielcaprara/","name":"Gabriel Caprara","url":"https://mh1.com.br/author/gabrielcaprara/","image":{"@type":"ImageObject","@id":"https://mh1.com.br/wp-content/uploads/2024/11/WhatsApp-Image-2024-11-25-at-17.10.33-150x150.jpeg","url":"https://mh1.com.br/wp-content/uploads/2024/11/WhatsApp-Image-2024-11-25-at-17.10.33-150x150.jpeg","caption":"Gabriel Caprara","inLanguage":"pt-BR"},"worksFor":{"@id":"https://mh1.com.br/#organization"}},{"@type":"NewsArticle","headline":"Uzumaki decepciona no epis\u00f3dio final: f\u00e3s criticam anima\u00e7\u00e3o desastrosa - MH1 - Not\u00edcias de Games, Animes,","datePublished":"2024-10-22T15:00:00-03:00","dateModified":"2024-10-22T15:00:00-03:00","articleSection":"Animes","author":{"@id":"https://mh1.com.br/author/gabrielcaprara/","name":"Gabriel Caprara"},"publisher":{"@id":"https://mh1.com.br/#organization"},"description":"A t\u00e3o aguardada adapta\u00e7\u00e3o de Uzumaki, uma das obras mais ic\u00f4nicas do mestre do terror Junji Ito, foi alvo de cr\u00edticas ap\u00f3s a exibi\u00e7\u00e3o de seu epis\u00f3dio final. O","copyrightYear":"2024","copyrightHolder":{"@id":"https://mh1.com.br/#organization"},"name":"Uzumaki decepciona no epis\u00f3dio final: f\u00e3s criticam anima\u00e7\u00e3o desastrosa - MH1 - Not\u00edcias de Games, Animes,","@id":"https://mh1.com.br/uzumaki-decepciona-no-episodio-final-fas-criticam-animacao-desastrosa/#richSnippet","isPartOf":{"@id":"https://mh1.com.br/uzumaki-decepciona-no-episodio-final-fas-criticam-animacao-desastrosa/#webpage"},"image":{"@id":"https://mh1.com.br/wp-content/uploads/2024/10/filters_quality95formatwebp-4.webp"},"inLanguage":"pt-BR","mainEntityOfPage":{"@id":"https://mh1.com.br/uzumaki-decepciona-no-episodio-final-fas-criticam-animacao-desastrosa/#webpage"}}]}</script>
+<!-- /Plugin de SEO Rank Math para WordPress -->
+
+
+<!-- Better Open Graph, Schema.org & Twitter Integration -->
+<meta property="og:locale" content="pt_br"/>
+<meta property="og:site_name" content="MH1 - Notícias de Games, Animes, Filmes, Jogos e mundo nerd"/>
+<meta property="og:url" content="https://mh1.com.br/uzumaki-decepciona-no-episodio-final-fas-criticam-animacao-desastrosa/"/>
+<meta property="og:title" content="Uzumaki decepciona no episódio final: fãs criticam animação desastrosa"/>
+<meta property="og:image" content="https://mh1.com.br/wp-content/uploads/2024/10/filters_quality95formatwebp-4.webp"/>
+<meta property="article:section" content="Animes"/>
+<meta property="og:description" content="A tão aguardada adaptação de Uzumaki, uma das obras mais icônicas do mestre do terror Junji Ito, foi alvo de críticas após a exibição de seu episódio final. O anime, produzido pela Adult Swim em parceria com o renomado estúdio Production I.G, prometi"/>
+<meta property="og:type" content="article"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:url" content="https://mh1.com.br/uzumaki-decepciona-no-episodio-final-fas-criticam-animacao-desastrosa/"/>
+<meta name="twitter:title" content="Uzumaki decepciona no episódio final: fãs criticam animação desastrosa"/>
+<meta name="twitter:description" content="A tão aguardada adaptação de Uzumaki, uma das obras mais icônicas do mestre do terror Junji Ito, foi alvo de críticas após a exibição de seu episódio final. O anime, produzido pela Adult Swim em parceria com o renomado estúdio Production I.G, prometi"/>
+<meta name="twitter:image" content="https://mh1.com.br/wp-content/uploads/2024/10/filters_quality95formatwebp-4.webp"/>
+<!-- / Better Open Graph, Schema.org & Twitter Integration. -->
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="Feed para MH1 - Notícias de Games, Animes, Filmes, Jogos e mundo nerd &raquo;" href="https://mh1.com.br/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para MH1 - Notícias de Games, Animes, Filmes, Jogos e mundo nerd &raquo;" href="https://mh1.com.br/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para MH1 - Notícias de Games, Animes, Filmes, Jogos e mundo nerd &raquo; Uzumaki decepciona no episódio final: fãs criticam animação desastrosa" href="https://mh1.com.br/uzumaki-decepciona-no-episodio-final-fas-criticam-animacao-desastrosa/feed/" />
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://mh1.com.br/wp-includes/css/dist/block-library/style.min.css?ver=6.8.3' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='rank-math-toc-block-style-inline-css' type='text/css'>
+.wp-block-rank-math-toc-block nav ol{counter-reset:item}.wp-block-rank-math-toc-block nav ol li{display:block}.wp-block-rank-math-toc-block nav ol li:before{content:counters(item, ".") ". ";counter-increment:item}
+
+</style>
+<style id='rank-math-rich-snippet-style-inline-css' type='text/css'>
+/*!
+* Plugin:  Rank Math
+* URL: https://rankmath.com/wordpress/plugin/seo-suite/
+* Name:  rank-math-review-snippet.css
+*/@-webkit-keyframes spin{0%{-webkit-transform:rotate(0deg)}100%{-webkit-transform:rotate(-360deg)}}@keyframes spin{0%{-webkit-transform:rotate(0deg)}100%{-webkit-transform:rotate(-360deg)}}@keyframes bounce{from{-webkit-transform:translateY(0px);transform:translateY(0px)}to{-webkit-transform:translateY(-5px);transform:translateY(-5px)}}@-webkit-keyframes bounce{from{-webkit-transform:translateY(0px);transform:translateY(0px)}to{-webkit-transform:translateY(-5px);transform:translateY(-5px)}}@-webkit-keyframes loading{0%{background-size:20% 50% ,20% 50% ,20% 50%}20%{background-size:20% 20% ,20% 50% ,20% 50%}40%{background-size:20% 100%,20% 20% ,20% 50%}60%{background-size:20% 50% ,20% 100%,20% 20%}80%{background-size:20% 50% ,20% 50% ,20% 100%}100%{background-size:20% 50% ,20% 50% ,20% 50%}}@keyframes loading{0%{background-size:20% 50% ,20% 50% ,20% 50%}20%{background-size:20% 20% ,20% 50% ,20% 50%}40%{background-size:20% 100%,20% 20% ,20% 50%}60%{background-size:20% 50% ,20% 100%,20% 20%}80%{background-size:20% 50% ,20% 50% ,20% 100%}100%{background-size:20% 50% ,20% 50% ,20% 50%}}:root{--rankmath-wp-adminbar-height: 0}#rank-math-rich-snippet-wrapper{overflow:hidden}#rank-math-rich-snippet-wrapper h5.rank-math-title{display:block;font-size:18px;line-height:1.4}#rank-math-rich-snippet-wrapper .rank-math-review-image{float:right;max-width:40%;margin-left:15px}#rank-math-rich-snippet-wrapper .rank-math-review-data{margin-bottom:15px}#rank-math-rich-snippet-wrapper .rank-math-total-wrapper{width:100%;padding:0 0 20px 0;float:left;clear:both;position:relative;-webkit-box-sizing:border-box;box-sizing:border-box}#rank-math-rich-snippet-wrapper .rank-math-total-wrapper .rank-math-total{border:0;display:block;margin:0;width:auto;float:left;text-align:left;padding:0;font-size:24px;line-height:1;font-weight:700;-webkit-box-sizing:border-box;box-sizing:border-box;overflow:hidden}#rank-math-rich-snippet-wrapper .rank-math-total-wrapper .rank-math-review-star{float:left;margin-left:15px;margin-top:5px;position:relative;z-index:99;line-height:1}#rank-math-rich-snippet-wrapper .rank-math-total-wrapper .rank-math-review-star .rank-math-review-result-wrapper{display:inline-block;white-space:nowrap;position:relative;color:#e7e7e7}#rank-math-rich-snippet-wrapper .rank-math-total-wrapper .rank-math-review-star .rank-math-review-result-wrapper .rank-math-review-result{position:absolute;top:0;left:0;overflow:hidden;white-space:nowrap;color:#ffbe01}#rank-math-rich-snippet-wrapper .rank-math-total-wrapper .rank-math-review-star .rank-math-review-result-wrapper i{font-size:18px;-webkit-text-stroke-width:1px;font-style:normal;padding:0 2px;line-height:inherit}#rank-math-rich-snippet-wrapper .rank-math-total-wrapper .rank-math-review-star .rank-math-review-result-wrapper i:before{content:"\2605"}body.rtl #rank-math-rich-snippet-wrapper .rank-math-review-image{float:left;margin-left:0;margin-right:15px}body.rtl #rank-math-rich-snippet-wrapper .rank-math-total-wrapper .rank-math-total{float:right}body.rtl #rank-math-rich-snippet-wrapper .rank-math-total-wrapper .rank-math-review-star{float:right;margin-left:0;margin-right:15px}body.rtl #rank-math-rich-snippet-wrapper .rank-math-total-wrapper .rank-math-review-star .rank-math-review-result{left:auto;right:0}@media screen and (max-width: 480px){#rank-math-rich-snippet-wrapper .rank-math-review-image{display:block;max-width:100%;width:100%;text-align:center;margin-right:0}#rank-math-rich-snippet-wrapper .rank-math-review-data{clear:both}}.clear{clear:both}
+
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://mh1.com.br/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://mh1.com.br/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js" data-rocket-defer defer></script>
+<script type="text/javascript" id="seo-automated-link-building-js-extra">
+/* <![CDATA[ */
+var seoAutomatedLinkBuilding = {"ajaxUrl":"https:\/\/mh1.com.br\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://mh1.com.br/wp-content/plugins/seo-automated-link-building/js/seo-automated-link-building.js?ver=6.8.3" id="seo-automated-link-building-js" data-rocket-defer defer></script>
+<!--[if lt IE 9]>
+<script type="text/javascript" src="https://mh1.com.br/wp-content/themes/publisher/includes/libs/better-framework/assets/js/html5shiv.min.js?ver=3.14.0" id="bf-html5shiv-js"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+<script type="text/javascript" src="https://mh1.com.br/wp-content/themes/publisher/includes/libs/better-framework/assets/js/respond.min.js?ver=3.14.0" id="bf-respond-js"></script>
+<![endif]-->
+<script type="rocketlazyloadscript"></script><link rel="https://api.w.org/" href="https://mh1.com.br/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://mh1.com.br/wp-json/wp/v2/posts/107513" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://mh1.com.br/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.8.3" />
+<link rel='shortlink' href='https://mh1.com.br/?p=107513' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://mh1.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmh1.com.br%2Fuzumaki-decepciona-no-episodio-final-fas-criticam-animacao-desastrosa%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://mh1.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmh1.com.br%2Fuzumaki-decepciona-no-episodio-final-fas-criticam-animacao-desastrosa%2F&#038;format=xml" />
+<!-- HFCM by 99 Robots - Snippet # 1: ADS -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9244708546034064"
+     crossorigin="anonymous"></script>
+<!-- /end HFCM by 99 Robots -->
+<!-- HFCM by 99 Robots - Snippet # 2: Marfeel -->
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+	function injectScript(src) {
+		var isModule = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;
+		var script = document.createElement('script');
+
+		script.src = src;
+
+		if (isModule) {
+			script.type = 'module';
+		} else {
+			script.async = true;
+			script.type = 'text/javascript';
+			script.setAttribute('nomodule', '');
+		}
+
+		var firstScript = document.getElementsByTagName('script')[0];
+
+		firstScript.parentNode.insertBefore(script, firstScript);
+	}
+
+	function load(window, id, userConfig) {
+		var _a, _b;
+		var _c;
+
+		(_a = window.marfeel) !== null && _a !== void 0 ? _a : window.marfeel = {};
+		(_b = (_c = window.marfeel).cmd) !== null && _b !== void 0 ? _b : _c.cmd = [];
+		window.marfeel.config = userConfig;
+		window.marfeel.config.accountId = id;
+
+		var resourcesPath = 'https://sdk.mrf.io/statics';
+
+		injectScript("".concat(resourcesPath, "/marfeel-sdk.js?id=").concat(id), true);
+		injectScript("".concat(resourcesPath, "/marfeel-sdk.es5.js?id=").concat(id), false);
+	}
+
+	(function (window, accountId) {
+		var clientConfig = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+
+		load(window, accountId, clientConfig);
+	})(window,8494, {} /* Config */);
+</script>
+<!-- /end HFCM by 99 Robots -->
+<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<script type="application/ld+json">{
+    "@context": "http://schema.org/",
+    "@type": "Organization",
+    "@id": "#organization",
+    "logo": {
+        "@type": "ImageObject",
+        "url": "https://mh1.com.br/wp-content/uploads/2024/10/mh1.png"
+    },
+    "url": "https://mh1.com.br/",
+    "name": "MH1 - Not\u00edcias de Games, Animes, Filmes, Jogos e mundo nerd",
+    "description": "\u00daltimas not\u00edcias de games, jogos online, animes, filmes e tudo do mundo nerd."
+}</script>
+<script type="application/ld+json">{
+    "@context": "http://schema.org/",
+    "@type": "WebSite",
+    "name": "MH1 - Not\u00edcias de Games, Animes, Filmes, Jogos e mundo nerd",
+    "alternateName": "\u00daltimas not\u00edcias de games, jogos online, animes, filmes e tudo do mundo nerd.",
+    "url": "https://mh1.com.br/"
+}</script>
+<script type="application/ld+json">{
+    "@context": "http://schema.org/",
+    "@type": "NewsArticle",
+    "headline": "Uzumaki decepciona no epis\u00f3dio final: f\u00e3s criticam anima\u00e7\u00e3o desastrosa",
+    "description": "A t\u00e3o aguardada adapta\u00e7\u00e3o de Uzumaki, uma das obras mais ic\u00f4nicas do mestre do terror Junji Ito, foi alvo de cr\u00edticas ap\u00f3s a exibi\u00e7\u00e3o de seu epis\u00f3dio final. O anime, produzido pela Adult Swim em parceria com o renomado est\u00fadio Production I.G, prometi",
+    "datePublished": "2024-10-22",
+    "dateModified": "2024-10-22",
+    "author": {
+        "@type": "Person",
+        "@id": "#person-GabrielCaprara",
+        "name": "Gabriel Caprara"
+    },
+    "image": "https://mh1.com.br/wp-content/uploads/2024/10/filters_quality95formatwebp-4.webp",
+    "interactionStatistic": [
+        {
+            "@type": "InteractionCounter",
+            "interactionType": "http://schema.org/CommentAction",
+            "userInteractionCount": "0"
+        }
+    ],
+    "publisher": {
+        "@id": "#organization"
+    },
+    "mainEntityOfPage": "https://mh1.com.br/uzumaki-decepciona-no-episodio-final-fas-criticam-animacao-desastrosa/"
+}</script>
+<link rel='stylesheet' id='bf-minifed-css-1' href='https://mh1.com.br/wp-content/bs-booster-cache/904c191efaa16403c4fef74924e6526c.css' type='text/css' media='all' />
+<link rel='stylesheet' id='7.12.0-rc2-1734297114' href='https://mh1.com.br/wp-content/bs-booster-cache/49bea48250805964379cd216a2c4daa5.css' type='text/css' media='all' />
+<link rel="icon" href="https://mh1.com.br/wp-content/uploads/2024/10/cropped-fav-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://mh1.com.br/wp-content/uploads/2024/10/cropped-fav-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://mh1.com.br/wp-content/uploads/2024/10/cropped-fav-180x180.png" />
+<meta name="msapplication-TileImage" content="https://mh1.com.br/wp-content/uploads/2024/10/cropped-fav-270x270.png" />
+<noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>	<meta name="generator" content="WP Rocket 3.17.3.1" data-wpr-features="wpr_delay_js wpr_defer_js wpr_desktop wpr_preload_links" /></head>
+
+<body class="wp-singular post-template-default single single-post postid-107513 single-format-standard wp-theme-publisher bs-theme bs-publisher bs-publisher-staff-post active-light-box ltr close-rh page-layout-2-col page-layout-2-col-right full-width main-menu-sticky main-menu-out-full-width single-prim-cat-26 single-cat-26  wpb-js-composer js-comp-ver-7.0 vc_responsive bs-ll-d" dir="ltr">
+	<header data-rocket-location-hash="a6f226493139aa2bdf1de6da27ae0e5b" id="header" class="site-header header-style-5 full-width" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
+		<section data-rocket-location-hash="6d4c8f8140b5a061d98b9264e731cef9" class="topbar topbar-style-1 hidden-xs hidden-xs">
+	<div data-rocket-location-hash="4700b722ca66a805c4f6ff414fefda47" class="content-wrap">
+		<div data-rocket-location-hash="0841f15ebf099eeaba6f2c7f735d0671" class="container">
+			<div class="topbar-inner clearfix">
+
+				
+				<div class="section-menu">
+						<div id="menu-top" class="menu top-menu-wrapper" role="navigation" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
+		<nav class="top-menu-container">
+
+			<ul id="top-navigation" class="top-menu menu clearfix bsm-pure">
+				<li id="menu-item-102457" class="menu-item menu-item-type-post_type menu-item-object-page better-anim-fade menu-item-102457"><a href="https://mh1.com.br/contato/">Contato</a></li>
+<li id="menu-item-102458" class="menu-item menu-item-type-post_type menu-item-object-page better-anim-fade menu-item-102458"><a href="https://mh1.com.br/equipe/">Equipe</a></li>
+<li id="menu-item-102459" class="menu-item menu-item-type-post_type menu-item-object-page better-anim-fade menu-item-102459"><a href="https://mh1.com.br/politica-de-privacidade/">Política de Privacidade</a></li>
+<li id="menu-item-102460" class="menu-item menu-item-type-post_type menu-item-object-page better-anim-fade menu-item-102460"><a href="https://mh1.com.br/sobre/">Sobre</a></li>
+			</ul>
+
+		</nav>
+	</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+		<div data-rocket-location-hash="46c5351bb4b87e3914e60ba1e89879a2" class="content-wrap">
+			<div class="container">
+				<div class="header-inner clearfix">
+					<div id="site-branding" class="site-branding">
+	<p  id="site-title" class="logo h1 img-logo">
+	<a href="https://mh1.com.br/" itemprop="url" rel="home">
+					<img id="site-logo" src="https://mh1.com.br/wp-content/uploads/2024/10/mh1.png"
+			     alt="Folha Oceânica"  />
+
+			<span class="site-title">Folha Oceânica - Últimas notícias de games, jogos online, animes, filmes e tudo do mundo nerd.</span>
+				</a>
+</p>
+</div><!-- .site-branding -->
+<nav id="menu-main" class="menu main-menu-container  show-search-item menu-actions-btn-width-1" role="navigation" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
+			<div class="menu-action-buttons width-1">
+							<div class="search-container close">
+					<span class="search-handler"><i class="fa fa-search"></i></span>
+
+					<div class="search-box clearfix">
+						<form role="search" method="get" class="search-form clearfix" action="https://mh1.com.br">
+	<input type="search" class="search-field"
+	       placeholder="Pesquisa..."
+	       value="" name="s"
+	       title="Procurar por:"
+	       autocomplete="off">
+	<input type="submit" class="search-submit" value="Pesquisa">
+</form><!-- .search-form -->
+					</div>
+				</div>
+						</div>
+			<ul id="main-navigation" class="main-menu menu bsm-pure clearfix">
+		<li id="menu-item-102456" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home better-anim-fade menu-item-102456"><a href="https://mh1.com.br/">Início</a></li>
+<li id="menu-item-102453" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-term-2 better-anim-fade menu-item-102453"><a href="https://mh1.com.br/noticias/">Notícias</a></li>
+<li id="menu-item-102698" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-term-26 better-anim-fade menu-item-102698"><a href="https://mh1.com.br/animes/">Animes</a></li>
+<li id="menu-item-105968" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-term-45 better-anim-fade menu-item-105968"><a href="https://mh1.com.br/mangas/">Mangás</a></li>
+<li id="menu-item-102699" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-term-44 better-anim-fade menu-item-102699"><a href="https://mh1.com.br/cinema/">Cinema</a></li>
+<li id="menu-item-102700" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-term-25 better-anim-fade menu-item-102700"><a href="https://mh1.com.br/games/">Games</a></li>
+<li id="menu-item-102701" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-term-28 better-anim-fade menu-item-102701"><a href="https://mh1.com.br/historia/">História</a></li>
+	</ul><!-- #main-navigation -->
+</nav><!-- .main-menu-container -->
+				</div>
+			</div>
+		</div>
+	</header><!-- .header -->
+	<div data-rocket-location-hash="d97cd8e68f5e457ffef15b9d7c77e27d" class="rh-header clearfix light deferred-block-exclude">
+		<div data-rocket-location-hash="98728663437fe351fa5071caf2cedc76" class="rh-container clearfix">
+
+			<div data-rocket-location-hash="1086d80be74c241e195907c4f65a87f5" class="menu-container close">
+				<span class="menu-handler"><span class="lines"></span></span>
+			</div><!-- .menu-container -->
+
+			<div data-rocket-location-hash="e54a6974060da9c5627ee1e6fdf42b8d" class="logo-container rh-img-logo">
+				<a href="https://mh1.com.br/" itemprop="url" rel="home">
+											<img src="https://mh1.com.br/wp-content/uploads/2024/10/mh1.png"
+						     alt="MH1 - Notícias de Games, Animes, Filmes, Jogos e mundo nerd"  />				</a>
+			</div><!-- .logo-container -->
+		</div><!-- .rh-container -->
+	</div><!-- .rh-header -->
+		<div data-rocket-location-hash="391ba893f7e243ab4a1c1fbecbecc334" class="main-wrap content-main-wrap">
+		<nav role="navigation" aria-label="Breadcrumbs" class="bf-breadcrumb clearfix bc-top-style"><div class="container bf-breadcrumb-container"><ul class="bf-breadcrumb-items" itemscope itemtype="http://schema.org/BreadcrumbList"><meta name="numberOfItems" content="3" /><meta name="itemListOrder" content="Ascending" /><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="bf-breadcrumb-item bf-breadcrumb-begin"><a itemprop="item" href="https://mh1.com.br" rel="home"><span itemprop="name">Home</span></a><meta itemprop="position" content="1" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="bf-breadcrumb-item"><a itemprop="item" href="https://mh1.com.br/animes/" ><span itemprop="name">Animes</span></a><meta itemprop="position" content="2" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="bf-breadcrumb-item bf-breadcrumb-end"><span itemprop="name">Uzumaki decepciona no episódio final: fãs criticam animação desastrosa</span><meta itemprop="item" content="https://mh1.com.br/uzumaki-decepciona-no-episodio-final-fas-criticam-animacao-desastrosa/"/><meta itemprop="position" content="3" /></li></ul></div></nav><div data-rocket-location-hash="39d92a336fe905aa9223b2725cef1198" class="content-wrap">
+		<main data-rocket-location-hash="72af0b05a0479e94762dca0dc34ab242" id="content" class="content-container">
+
+		<div class="container layout-2-col layout-2-col-1 layout-right-sidebar layout-bc-before post-template-1">
+			<div class="row main-section">
+										<div class="col-sm-8 content-column">
+								<div class="single-container">
+		<article id="post-107513" class="post-107513 post type-post status-publish format-standard has-post-thumbnail  category-animes single-post-content has-thumbnail">
+						<div class="post-header post-tp-1-header">
+									<h1 class="single-post-title">
+						<span class="post-title" itemprop="headline">Uzumaki decepciona no episódio final: fãs criticam animação desastrosa</span></h1>
+										<div class="post-meta-wrap clearfix">
+						<div class="term-badges "><span class="term-badge term-26"><a href="https://mh1.com.br/animes/">Animes</a></span></div><div class="post-meta single-post-meta">
+			<a href="https://mh1.com.br/author/gabrielcaprara/"
+		   title="Artigos de autor"
+		   class="post-author-a post-author-avatar">
+			<img alt='' src='https://mh1.com.br/wp-content/uploads/2024/11/WhatsApp-Image-2024-11-25-at-17.10.33-150x150.jpeg' class='avatar avatar-26 photo avatar-default' height='26' width='26' /><span class="post-author-name">Por <b>Gabriel Caprara</b></span>		</a>
+					<span class="time"><time class="post-published updated"
+			                         datetime="2024-10-22T15:00:00-03:00">Em <b>22 out, 2024</b></time></span>
+			<a href="https://mh1.com.br/uzumaki-decepciona-no-episodio-final-fas-criticam-animacao-desastrosa/#respond" title="Deixe um comentário sobre: ​​&quot;Uzumaki decepciona no episódio final: fãs criticam animação desastrosa&quot;" class="comments"><i class="fa fa-comments-o"></i> 0</a></div>
+					</div>
+									<div class="single-featured">
+					<a class="post-thumbnail open-lightbox" href="https://mh1.com.br/wp-content/uploads/2024/10/filters_quality95formatwebp-4.webp"><img  src="https://mh1.com.br/wp-content/uploads/2024/10/filters_quality95formatwebp-4.webp" width="960" height="540" alt="">						</a>
+										</div>
+			</div>
+						<div class="entry-content clearfix single-post-content">
+				<p>A tão aguardada adaptação de <em>Uzumaki</em>, uma das obras mais icônicas do mestre do terror Junji Ito, foi alvo de críticas após a exibição de seu episódio final. O anime, produzido pela Adult Swim em parceria com o renomado estúdio Production I.G, prometia trazer à vida todo o horror surreal das espirais que atormentam a pacata cidade de Kurouzu-cho. No entanto, o desfecho da série não foi bem recebido e deixou os fãs desapontados com a queda na qualidade da animação.</p>
+
+
+
+ <figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+<blockquote class="twitter-tweet" data-width="550" data-dnt="true"><p lang="ja" dir="ltr">Key Animation: 🌪️🪂<br><br>Anime: Uzumaki (うずまき) &#8211; #04 <a href="https://t.co/8HX3xHiVqt" target="_blank">pic.twitter.com/8HX3xHiVqt</a></p>&mdash; Pekuga Perfect Shots「作画 🥸」 (@Pekuga_Pr) <a href="https://twitter.com/Pekuga_Pr/status/1847887685957886461?ref_src=twsrc%5Etfw" target="_blank" rel="noopener">October 20, 2024</a></blockquote><script type="rocketlazyloadscript" async data-rocket-src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div></figure>
+
+
+
+ <h3 class="wp-block-heading">Um começo promissor, mas uma queda vertiginosa</h3>
+
+
+
+ <p>Desde seu anúncio, <em>Uzumaki</em> gerou grande expectativa por sua atmosfera única e fiel ao estilo perturbador de Junji Ito. O primeiro episódio foi bem-recebido, conseguindo captar a estranheza e o horror psicológico que fazem da obra original um marco no gênero. Contudo, o entusiasmo inicial logo foi ofuscado conforme a série avançava, com a qualidade da animação deteriorando drasticamente.</p><div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9244708546034064"
+     crossorigin="anonymous"></script>
+<!-- MH1 - 1 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9244708546034064"
+     data-ad-slot="1516355167"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+
+
+
+
+ <p>No episódio final, as críticas foram severas. Fãs apontaram que muitas das cenas pareciam apressadas, com movimentos robóticos e uma estética que destoava completamente do padrão estabelecido no início. Em fóruns e redes sociais, muitos compararam a qualidade da animação a algo &#8220;feito no PowerPoint&#8221;, reforçando a insatisfação com o ritmo acelerado e os visuais amadores.</p>
+
+
+
+ <h3 class="wp-block-heading">O impacto da pandemia e os bastidores da produção</h3>
+
+
+
+<div class="bs-irp center bs-irp-thumbnail-1-full">
+
+	<div class="bs-irp-heading">
+		<span class="h-text heading-typo">Acabou de sair</span>
+	</div>
+
+			<div class="bs-pagination-wrapper main-term-none none ">
+			<div class="listing listing-thumbnail listing-tb-1 clearfix columns-2">
+		<div class="post-111641 type-post format-standard has-post-thumbnail   listing-item listing-item-thumbnail listing-item-tb-1 main-term-26">
+	<div class="item-inner clearfix">
+					<div class="featured featured-type-featured-image">
+				<a  title="To Be Hero X: curiosidades que você não conhecia sobre o anime!" style="background-image: url(https://mh1.com.br/wp-content/uploads/2025/04/3a6d3fe90347d15750b064cfd6a948950e08eb98ec635f8854a68847ee66b8a4._SX1080_FMjpg_-86x64.jpg);" data-bsrjs="https://mh1.com.br/wp-content/uploads/2025/04/3a6d3fe90347d15750b064cfd6a948950e08eb98ec635f8854a68847ee66b8a4._SX1080_FMjpg_-210x136.jpg"						class="img-holder" href="https://mh1.com.br/to-be-hero-x-curiosidades-que-voce-nao-conhecia-sobre-o-anime/"></a>
+							</div>
+		<p class="title">		<a href="https://mh1.com.br/to-be-hero-x-curiosidades-que-voce-nao-conhecia-sobre-o-anime/" class="post-url post-title">
+			To Be Hero X: curiosidades que você não conhecia sobre o&hellip;		</a>
+		</p>	</div>
+	</div >
+	<div class="post-111638 type-post format-standard has-post-thumbnail   listing-item listing-item-thumbnail listing-item-tb-1 main-term-26">
+	<div class="item-inner clearfix">
+					<div class="featured featured-type-featured-image">
+				<a  title="Retorno do anime &#8220;Go! Go! Loser Ranger!&#8221; dá o que falar! Saiba tudo sobre" style="background-image: url(https://mh1.com.br/wp-content/uploads/2025/04/go-go-loser-ranger-primeiras-impressoes-destaque-86x64.jpg);" data-bsrjs="https://mh1.com.br/wp-content/uploads/2025/04/go-go-loser-ranger-primeiras-impressoes-destaque-210x136.jpg"						class="img-holder" href="https://mh1.com.br/retorno-do-anime-go-go-loser-ranger-da-o-que-falar-saiba-tudo-sobre/"></a>
+							</div>
+		<p class="title">		<a href="https://mh1.com.br/retorno-do-anime-go-go-loser-ranger-da-o-que-falar-saiba-tudo-sobre/" class="post-url post-title">
+			Retorno do anime &#8220;Go! Go! Loser Ranger!&#8221; dá o&hellip;		</a>
+		</p><div class='code-block code-block-2' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9244708546034064"
+     crossorigin="anonymous"></script>
+<!-- MH1 - 2 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9244708546034064"
+     data-ad-slot="8608377122"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+	</div>
+	</div >
+	</div>
+	
+	</div></div> <p>Parte dos problemas que levaram ao declínio de <em>Uzumaki</em> podem ser atribuídos aos bastidores complicados da produção. Em declarações recentes, Jason DeMarco, executivo da Adult Swim, revelou que a pandemia de COVID-19 e a crise de mão de obra na indústria de animação afetaram significativamente o cronograma e a qualidade final da série. O estúdio enfrentou dificuldades tanto financeiras quanto de pessoal, resultando em um produto final que ficou aquém das expectativas.</p>
+
+
+
+ <p>Com um orçamento apertado e pouco tempo para corrigir as falhas técnicas, a equipe optou por concluir os quatro episódios dentro do prazo, em vez de adiar ainda mais o lançamento. Infelizmente, essa decisão trouxe um impacto negativo na experiência geral dos fãs, que esperavam um tratamento digno da grandiosidade da obra de Ito.</p>
+
+
+
+ <figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+<blockquote class="twitter-tweet" data-width="550" data-dnt="true"><p lang="pt" dir="ltr">Uzumaki realmente está na disputa para um dos piores animes do ano<br><br>Tantos anos pra sair ISSO AQUI<a href="https://t.co/Hbcj4orCVi" target="_blank">pic.twitter.com/Hbcj4orCVi</a></p>&mdash; Tarsi🦋 (@shadowarlok) <a href="https://twitter.com/shadowarlok/status/1848062091682361538?ref_src=twsrc%5Etfw" target="_blank" rel="noopener">October 20, 2024</a></blockquote><script type="rocketlazyloadscript" async data-rocket-src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div></figure>
+
+
+
+ <h3 class="wp-block-heading">O que esperar do futuro?</h3>
+
+
+
+ <p>Para os fãs de Junji Ito, a decepção com o final de <em>Uzumaki</em> reacendeu o debate sobre adaptações de suas obras para outras mídias. Embora Ito seja amplamente reverenciado por suas histórias de terror únicas e pela arte visualmente impactante, as adaptações em anime têm enfrentado dificuldades para traduzir sua genialidade para as telas.</p>
+
+
+
+ <p>Agora, a esperança dos fãs se volta para que uma nova adaptação — quem sabe no futuro — consiga fazer justiça ao trabalho do mestre do horror, capturando não apenas a profundidade de suas narrativas, mas também o impacto visual que define suas obras. Até lá, resta apenas lamentar o que poderia ter sido um clássico instantâneo do anime de terror.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity" /> 
+
+
+
+<p><em>Uzumaki</em> chegou com tudo, mas infelizmente terminou com um espiral de críticas. O que você achou do episódio final? Compartilhe sua opinião nos comentários!</p> <!-- AI CONTENT END 1 -->
+			</div>
+
+						<div class="post-share single-post-share bottom-share clearfix style-10">
+			<div class="post-share-btn-group">
+				<a href="https://mh1.com.br/uzumaki-decepciona-no-episodio-final-fas-criticam-animacao-desastrosa/#respond" class="post-share-btn post-share-btn-comments comments" title="Deixe um comentário sobre: ​​&quot;Uzumaki decepciona no episódio final: fãs criticam animação desastrosa&quot;"><i class="bf-icon fa fa-comments" aria-hidden="true"></i> <b class="number">0</b></a>			</div>
+						<div class="share-handler-wrap ">
+				<span class="share-handler post-share-btn rank-default">
+					<i class="bf-icon  fa fa-share-alt"></i>						<b class="text">Compartilhar</b>
+										</span>
+				<span class="social-item facebook has-title"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fmh1.com.br%2Fuzumaki-decepciona-no-episodio-final-fas-criticam-animacao-desastrosa%2F" target="_blank" rel="nofollow noreferrer" class="bs-button-el" onclick="window.open(this.href, 'share-facebook','left=50,top=50,width=600,height=320,toolbar=0'); return false;"><span class="icon"><i class="bf-icon fa fa-facebook"></i></span><span class="item-title">Facebook</span></a></span><span class="social-item twitter has-title"><a href="https://twitter.com/share?text=Uzumaki decepciona no episódio final: fãs criticam animação desastrosa&url=https%3A%2F%2Fmh1.com.br%2Fuzumaki-decepciona-no-episodio-final-fas-criticam-animacao-desastrosa%2F" target="_blank" rel="nofollow noreferrer" class="bs-button-el" onclick="window.open(this.href, 'share-twitter','left=50,top=50,width=600,height=320,toolbar=0'); return false;"><span class="icon"><i class="bf-icon fa fa-twitter"></i></span><span class="item-title">Twitter</span></a></span><span class="social-item google_plus has-title"><a href="https://plus.google.com/share?url=https%3A%2F%2Fmh1.com.br%2Fuzumaki-decepciona-no-episodio-final-fas-criticam-animacao-desastrosa%2F" target="_blank" rel="nofollow noreferrer" class="bs-button-el" onclick="window.open(this.href, 'share-google_plus','left=50,top=50,width=600,height=320,toolbar=0'); return false;"><span class="icon"><i class="bf-icon fa fa-google"></i></span><span class="item-title">Google+</span></a></span><span class="social-item reddit has-title"><a href="https://reddit.com/submit?url=https%3A%2F%2Fmh1.com.br%2Fuzumaki-decepciona-no-episodio-final-fas-criticam-animacao-desastrosa%2F&title=Uzumaki decepciona no episódio final: fãs criticam animação desastrosa" target="_blank" rel="nofollow noreferrer" class="bs-button-el" onclick="window.open(this.href, 'share-reddit','left=50,top=50,width=600,height=320,toolbar=0'); return false;"><span class="icon"><i class="bf-icon fa fa-reddit-alien"></i></span><span class="item-title">ReddIt</span></a></span><span class="social-item whatsapp has-title"><a href="whatsapp://send?text=Uzumaki decepciona no episódio final: fãs criticam animação desastrosa %0A%0A https%3A%2F%2Fmh1.com.br%2Fuzumaki-decepciona-no-episodio-final-fas-criticam-animacao-desastrosa%2F" target="_blank" rel="nofollow noreferrer" class="bs-button-el" onclick="window.open(this.href, 'share-whatsapp','left=50,top=50,width=600,height=320,toolbar=0'); return false;"><span class="icon"><i class="bf-icon fa fa-whatsapp"></i></span><span class="item-title">WhatsApp</span></a></span><span class="social-item pinterest has-title"><a href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fmh1.com.br%2Fuzumaki-decepciona-no-episodio-final-fas-criticam-animacao-desastrosa%2F&media=https://mh1.com.br/wp-content/uploads/2024/10/filters_quality95formatwebp-4.webp&description=Uzumaki decepciona no episódio final: fãs criticam animação desastrosa" target="_blank" rel="nofollow noreferrer" class="bs-button-el" onclick="window.open(this.href, 'share-pinterest','left=50,top=50,width=600,height=320,toolbar=0'); return false;"><span class="icon"><i class="bf-icon fa fa-pinterest"></i></span><span class="item-title">Pinterest</span></a></span><span class="social-item email has-title"><a href="/cdn-cgi/l/email-protection#c6f9b5b3a4aca3a5b2fb93bcb3aba7adafe6a2a3a5a3b6a5afa9a8a7e6a8a9e6a3b6afb50575a2afa9e6a0afa8a7aafce6a00565b5e6a5b4afb2afa5a7abe6a7a8afaba705610565a9e6a2a3b5a7b5b2b4a9b5a7e0a4a9a2bffbaeb2b2b6b5e3f587e3f480e3f480abaef7e8a5a9abe8a4b4e3f480b3bcb3aba7adafeba2a3a5a3b6a5afa9a8a7eba8a9eba3b6afb5a9a2afa9eba0afa8a7aaeba0a7b5eba5b4afb2afa5a7abeba7a8afaba7a5a7a9eba2a3b5a7b5b2b4a9b5a7e3f480" target="_blank" rel="nofollow noreferrer" class="bs-button-el" onclick="window.open(this.href, 'share-email','left=50,top=50,width=600,height=320,toolbar=0'); return false;"><span class="icon"><i class="bf-icon fa fa-envelope-open"></i></span><span class="item-title">O email</span></a></span></div>		</div>
+				</article>
+		<section class="post-author clearfix">
+		<a href="https://mh1.com.br/author/gabrielcaprara/"
+	   title="Artigos de autor">
+		<span class="post-author-avatar" itemprop="image"><img alt='' src='https://mh1.com.br/wp-content/uploads/2024/11/WhatsApp-Image-2024-11-25-at-17.10.33-150x150.jpeg' class='avatar avatar-80 photo avatar-default' height='80' width='80' /></span>
+	</a>
+
+	<div class="author-title heading-typo">
+		<a class="post-author-url" href="https://mh1.com.br/author/gabrielcaprara/"><span class="post-author-name">Gabriel Caprara</span></a>
+
+		
+			</div>
+
+	<div class="author-links">
+				<ul class="author-social-icons">
+					</ul>
+			</div>
+
+	<div class="post-author-bio" itemprop="description">
+			</div>
+
+</section>
+	<section class="next-prev-post clearfix">
+
+					<div class="prev-post">
+				<p class="pre-title heading-typo"><i
+							class="fa fa-arrow-left"></i> Anterior				</p>
+				<p class="title heading-typo"><a href="https://mh1.com.br/netflix-fecha-estudio-aaa-repleto-de-veteranos-e-muda-estrategia-nos-games-o-que-isso-significa/" rel="prev">Netflix Fecha Estúdio AAA Repleto de Veteranos e Muda Estratégia nos Games – O Que Isso Significa?</a></p>
+			</div>
+		
+					<div class="next-post">
+				<p class="pre-title heading-typo">Próximo <i
+							class="fa fa-arrow-right"></i></p>
+				<p class="title heading-typo"><a href="https://mh1.com.br/rilakkuma-novo-anime-e-anunciado-e-fas-vao-a-loucura/" rel="next">Rilakkuma: Novo anime é anunciado e fãs vão à loucura!</a></p>
+			</div>
+		
+	</section>
+	</div>
+<div class="post-related">
+
+	<div class="section-heading sh-t1 sh-s3 multi-tab">
+
+					<a href="#relatedposts_645240574_1" class="main-link active"
+			   data-toggle="tab">
+				<span
+						class="h-text related-posts-heading">Você pode gostar também</span>
+			</a>
+			<a href="#relatedposts_645240574_2" class="other-link" data-toggle="tab"
+			   data-deferred-event="shown.bs.tab"
+			   data-deferred-init="relatedposts_645240574_2">
+				<span
+						class="h-text related-posts-heading">Mais do autor</span>
+			</a>
+		
+	</div>
+
+		<div class="tab-content">
+		<div class="tab-pane bs-tab-anim bs-tab-animated active"
+		     id="relatedposts_645240574_1">
+			
+					<div class="bs-pagination-wrapper main-term-none  ">
+			<div class="listing listing-thumbnail listing-tb-2 clearfix  scolumns-3 simple-grid include-last-mobile">
+	<div  class="post-111641 type-post format-standard has-post-thumbnail   listing-item listing-item-thumbnail listing-item-tb-2 main-term-26">
+<div class="item-inner clearfix">
+			<div class="featured featured-type-featured-image">
+			<div class="term-badges floated"><span class="term-badge term-26"><a href="https://mh1.com.br/animes/">Animes</a></span></div>			<a  title="To Be Hero X: curiosidades que você não conhecia sobre o anime!" style="background-image: url(https://mh1.com.br/wp-content/uploads/2025/04/3a6d3fe90347d15750b064cfd6a948950e08eb98ec635f8854a68847ee66b8a4._SX1080_FMjpg_-210x136.jpg);" data-bsrjs="https://mh1.com.br/wp-content/uploads/2025/04/3a6d3fe90347d15750b064cfd6a948950e08eb98ec635f8854a68847ee66b8a4._SX1080_FMjpg_-279x220.jpg"					class="img-holder" href="https://mh1.com.br/to-be-hero-x-curiosidades-que-voce-nao-conhecia-sobre-o-anime/"></a>
+					</div>
+	<p class="title">	<a class="post-url" href="https://mh1.com.br/to-be-hero-x-curiosidades-que-voce-nao-conhecia-sobre-o-anime/" title="To Be Hero X: curiosidades que você não conhecia sobre o anime!">
+			<span class="post-title">
+				To Be Hero X: curiosidades que você não conhecia sobre o anime!			</span>
+	</a>
+	</p></div>
+</div >
+<div  class="post-111638 type-post format-standard has-post-thumbnail   listing-item listing-item-thumbnail listing-item-tb-2 main-term-26">
+<div class="item-inner clearfix">
+			<div class="featured featured-type-featured-image">
+			<div class="term-badges floated"><span class="term-badge term-26"><a href="https://mh1.com.br/animes/">Animes</a></span></div>			<a  title="Retorno do anime &#8220;Go! Go! Loser Ranger!&#8221; dá o que falar! Saiba tudo sobre" style="background-image: url(https://mh1.com.br/wp-content/uploads/2025/04/go-go-loser-ranger-primeiras-impressoes-destaque-210x136.jpg);" data-bsrjs="https://mh1.com.br/wp-content/uploads/2025/04/go-go-loser-ranger-primeiras-impressoes-destaque-279x220.jpg"					class="img-holder" href="https://mh1.com.br/retorno-do-anime-go-go-loser-ranger-da-o-que-falar-saiba-tudo-sobre/"></a>
+					</div>
+	<p class="title">	<a class="post-url" href="https://mh1.com.br/retorno-do-anime-go-go-loser-ranger-da-o-que-falar-saiba-tudo-sobre/" title="Retorno do anime &#8220;Go! Go! Loser Ranger!&#8221; dá o que falar! Saiba tudo sobre">
+			<span class="post-title">
+				Retorno do anime &#8220;Go! Go! Loser Ranger!&#8221; dá o que falar! Saiba tudo sobre			</span>
+	</a>
+	</p></div>
+</div >
+<div  class="post-111626 type-post format-standard has-post-thumbnail   listing-item listing-item-thumbnail listing-item-tb-2 main-term-26">
+<div class="item-inner clearfix">
+			<div class="featured featured-type-featured-image">
+			<div class="term-badges floated"><span class="term-badge term-26"><a href="https://mh1.com.br/animes/">Animes</a></span></div>			<a  alt="One Punch Man" title="One Punch Man 199: Spoilers e data de lançamento revelada" style="background-image: url(https://mh1.com.br/wp-content/uploads/2024/04/OnePunch1-210x136.webp);" data-bsrjs="https://mh1.com.br/wp-content/uploads/2024/04/OnePunch1-279x220.webp"					class="img-holder" href="https://mh1.com.br/one-punch-man-199-spoilers-e-data-de-lancamento-revelada/"></a>
+					</div>
+	<p class="title">	<a class="post-url" href="https://mh1.com.br/one-punch-man-199-spoilers-e-data-de-lancamento-revelada/" title="One Punch Man 199: Spoilers e data de lançamento revelada">
+			<span class="post-title">
+				One Punch Man 199: Spoilers e data de lançamento revelada			</span>
+	</a>
+	</p></div>
+</div >
+<div  class="post-111624 type-post format-standard has-post-thumbnail   listing-item listing-item-thumbnail listing-item-tb-2 main-term-26">
+<div class="item-inner clearfix">
+			<div class="featured featured-type-featured-image">
+			<div class="term-badges floated"><span class="term-badge term-26"><a href="https://mh1.com.br/animes/">Animes</a></span></div>			<a  title="Devil May Cry: Netflix lançará 2ª temporada!" style="background-image: url(https://mh1.com.br/wp-content/uploads/2024/09/devil-may-cry-netflix-210x136.webp);" data-bsrjs="https://mh1.com.br/wp-content/uploads/2024/09/devil-may-cry-netflix-279x220.webp"					class="img-holder" href="https://mh1.com.br/devil-may-cry-netflix-lancara-2a-temporada/"></a>
+					</div>
+	<p class="title">	<a class="post-url" href="https://mh1.com.br/devil-may-cry-netflix-lancara-2a-temporada/" title="Devil May Cry: Netflix lançará 2ª temporada!">
+			<span class="post-title">
+				Devil May Cry: Netflix lançará 2ª temporada!			</span>
+	</a>
+	</p></div>
+</div >
+	</div>
+	
+	</div>
+		</div>
+
+		<div class="tab-pane bs-tab-anim bs-tab-animated bs-deferred-container"
+		     id="relatedposts_645240574_2">
+					<div class="bs-pagination-wrapper main-term-none  ">
+				<div class="bs-deferred-load-wrapper" id="bsd_relatedposts_645240574_2">
+			<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="rocketlazyloadscript">var bs_deferred_loading_bsd_relatedposts_645240574_2 = '{"query":{"paginate":"","count":4,"author":6,"post_type":"post","_layout":{"state":"1|1|0","page":"2-col-right"}},"type":"wp_query","view":"Publisher::fetch_other_related_posts","current_page":1,"ajax_url":"\/wp-admin\/admin-ajax.php","remove_duplicates":"0","paginate":"","_layout":{"state":"1|1|0","page":"2-col-right"},"_bs_pagin_token":"6c53be1","data":{"vars":{"post-ranking-offset":2}}}';</script>
+		</div>
+		
+	</div>		</div>
+	</div>
+</div>
+<section id="comments-template-107513" class="comments-template">
+	
+	
+		<div id="respond" class="comment-respond">
+		<div id="reply-title" class="comment-reply-title"><div class="section-heading sh-t1 sh-s3" ><span class="h-text">Deixe uma resposta</span></div> <small><a rel="nofollow" id="cancel-comment-reply-link" href="/uzumaki-decepciona-no-episodio-final-fas-criticam-animacao-desastrosa/#respond" style="display:none;">Cancelar resposta</a></small></div><form action="https://mh1.com.br/wp-comments-post.php" method="post" id="commentform" class="comment-form"><div class="note-before"><p>Seu endereço de email não será publicado.</p>
+</div><p class="comment-wrap"><textarea name="comment" class="comment" id="comment" cols="45" rows="10" aria-required="true" placeholder="Seu comentário"></textarea></p><p class="author-wrap"><input name="author" class="author" id="author" type="text" value="" size="45"  aria-required="true" placeholder="Seu nome *" /></p>
+<p class="email-wrap"><input name="email" class="email" id="email" type="text" value="" size="45"  aria-required="true" placeholder="Seu email *" /></p>
+<p class="url-wrap"><input name="url" class="url" id="url" type="text" value="" size="45" placeholder="Seu site" /></p>
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" /><label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label></p>
+<p class="form-submit"><input name="submit" type="submit" id="comment-submit" class="comment-submit" value="Postar Comentário" /> <input type='hidden' name='comment_post_ID' value='107513' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p></form>	</div><!-- #respond -->
+	</section>
+						</div><!-- .content-column -->
+												<div class="col-sm-4 sidebar-column sidebar-column-primary">
+							<aside id="sidebar-primary-sidebar" class="sidebar" role="complementary" aria-label="Primary Sidebar Sidebar" itemscope="itemscope" itemtype="https://schema.org/WPSideBar">
+	<div id="bs-recent-posts-2" class=" h-ni w-t primary-sidebar-widget widget widget_bs-recent-posts"><div class="section-heading sh-t1 sh-s3"><span class="h-text">Confira!</span></div>	<div class="bs-theme-shortcode bs-recent-posts">
+			<ul class="listing listing-widget listing-widget-thumbnail listing-widget-simple-thumbnail">
+					<li class="listing-item clearfix">
+				<div class="post-111646 type-post format-standard has-post-thumbnail ">
+											<a  title="Doom: The Dark Ages tem novidades reveladas! Saiba tudo sobre" style="background-image: url(https://mh1.com.br/wp-content/uploads/2025/01/DOOM_TheDarkAges_Standard_Keyart-150x150.webp);"								class="img-holder" href="https://mh1.com.br/doom-the-dark-ages-tem-novidades-reveladas-saiba-tudo-sobre/"></a>
+										<p class="title">
+						<a href="https://mh1.com.br/doom-the-dark-ages-tem-novidades-reveladas-saiba-tudo-sobre/" class="post-title post-url">
+							Doom: The Dark Ages tem novidades reveladas! Saiba tudo&hellip;						</a>
+					</p>
+				</div>
+			</li>
+					<li class="listing-item clearfix">
+				<div class="post-111641 type-post format-standard has-post-thumbnail ">
+											<a  title="To Be Hero X: curiosidades que você não conhecia sobre o anime!" style="background-image: url(https://mh1.com.br/wp-content/uploads/2025/04/3a6d3fe90347d15750b064cfd6a948950e08eb98ec635f8854a68847ee66b8a4._SX1080_FMjpg_-150x150.jpg);"								class="img-holder" href="https://mh1.com.br/to-be-hero-x-curiosidades-que-voce-nao-conhecia-sobre-o-anime/"></a>
+										<p class="title">
+						<a href="https://mh1.com.br/to-be-hero-x-curiosidades-que-voce-nao-conhecia-sobre-o-anime/" class="post-title post-url">
+							To Be Hero X: curiosidades que você não conhecia sobre&hellip;						</a>
+					</p>
+				</div>
+			</li>
+					<li class="listing-item clearfix">
+				<div class="post-111644 type-post format-standard has-post-thumbnail ">
+											<a  title="Disputa legal entre Pokémon e Palworld volta aos palcos: Veja tudo sobre os últimos acontecimentos" style="background-image: url(https://mh1.com.br/wp-content/uploads/2024/06/Palworld_KeyVisual_1080p_Loco_C-45594911e96ab24f089c-150x150.jpg);"								class="img-holder" href="https://mh1.com.br/disputa-legal-entre-pokemon-e-palworld-volta-aos-palcos-veja-tudo-sobre-os-ultimos-acontecimentos/"></a>
+										<p class="title">
+						<a href="https://mh1.com.br/disputa-legal-entre-pokemon-e-palworld-volta-aos-palcos-veja-tudo-sobre-os-ultimos-acontecimentos/" class="post-title post-url">
+							Disputa legal entre Pokémon e Palworld volta aos&hellip;						</a>
+					</p>
+				</div>
+			</li>
+					<li class="listing-item clearfix">
+				<div class="post-111638 type-post format-standard has-post-thumbnail ">
+											<a  title="Retorno do anime &#8220;Go! Go! Loser Ranger!&#8221; dá o que falar! Saiba tudo sobre" style="background-image: url(https://mh1.com.br/wp-content/uploads/2025/04/go-go-loser-ranger-primeiras-impressoes-destaque-150x150.jpg);"								class="img-holder" href="https://mh1.com.br/retorno-do-anime-go-go-loser-ranger-da-o-que-falar-saiba-tudo-sobre/"></a>
+										<p class="title">
+						<a href="https://mh1.com.br/retorno-do-anime-go-go-loser-ranger-da-o-que-falar-saiba-tudo-sobre/" class="post-title post-url">
+							Retorno do anime &#8220;Go! Go! Loser Ranger!&#8221; dá&hellip;						</a>
+					</p>
+				</div>
+			</li>
+					<li class="listing-item clearfix">
+				<div class="post-111636 type-post format-standard has-post-thumbnail ">
+											<a  title="Demo de Star Wars Outlaws é disponibilizada em todas as plataformas: Saiba como acessar!" style="background-image: url(https://mh1.com.br/wp-content/uploads/2024/09/star-wars-outlaws-key-art_article-feature_73a536a1-150x150.jpeg);"								class="img-holder" href="https://mh1.com.br/demo-de-star-wars-outlaws-e-disponibilizada-em-todas-as-plataformas-saiba-como-acessar/"></a>
+										<p class="title">
+						<a href="https://mh1.com.br/demo-de-star-wars-outlaws-e-disponibilizada-em-todas-as-plataformas-saiba-como-acessar/" class="post-title post-url">
+							Demo de Star Wars Outlaws é disponibilizada em todas as&hellip;						</a>
+					</p>
+				</div>
+			</li>
+			</ul>
+	</div>
+</div></aside>
+						</div><!-- .primary-sidebar-column -->
+									</div><!-- .main-section -->
+		</div><!-- .container -->
+
+	</main><!-- main -->
+	</div><!-- .content-wrap -->
+		</div><!-- .main-wrap -->
+			<footer data-rocket-location-hash="181a7582ad1dd2e0a1a4a81973c41ee9" id="site-footer" class="site-footer full-width">
+				<div data-rocket-location-hash="c18db4876fc0cb272ba6faae6f8035c2" class="copy-footer">
+			<div data-rocket-location-hash="4ccd0442b0b95f89b8a936009d4f493b" class="content-wrap">
+				<div class="container">
+										<div class="row footer-copy-row">
+						<div class="copy-1 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+							© 2025 - MH1 - Notícias de Games, Animes, Filmes, Jogos e mundo nerd. Todos os direitos reservados.						</div>
+						<div class="copy-2 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+							Marca administrada pela Caprara Network.						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer><!-- .footer -->
+	<span class="back-top"><i class="fa fa-arrow-up"></i></span>
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/publisher\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<!-- Google tag (gtag.js) -->
+<script type="rocketlazyloadscript" async data-rocket-src="https://www.googletagmanager.com/gtag/js?id=G-CFS8MEQMHS"></script>
+<script type="rocketlazyloadscript">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CFS8MEQMHS');
+</script><script type="text/javascript" id="publisher-theme-pagination-js-extra">
+/* <![CDATA[ */
+var bs_pagination_loc = {"loading":"<div class=\"bs-loading\"><div><\/div><div><\/div><div><\/div><div><\/div><div><\/div><div><\/div><div><\/div><div><\/div><div><\/div><\/div>"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="publisher-js-extra">
+/* <![CDATA[ */
+var publisher_theme_global_loc = {"page":{"boxed":"full-width"},"header":{"style":"style-5","boxed":"out-full-width"},"ajax_url":"https:\/\/mh1.com.br\/wp-admin\/admin-ajax.php","loading":"<div class=\"bs-loading\"><div><\/div><div><\/div><div><\/div><div><\/div><div><\/div><div><\/div><div><\/div><div><\/div><div><\/div><\/div>","translations":{"tabs_all":"Todos","tabs_more":"Mais","lightbox_expand":"Expand the image","lightbox_close":"Close"},"lightbox":{"not_classes":""},"main_menu":{"more_menu":"enable"},"top_menu":{"more_menu":"enable"},"skyscraper":{"sticky_gap":30,"sticky":false,"position":""},"share":{"more":true},"refresh_googletagads":"1","get_locale":"pt-BR","notification":{"subscribe_msg":"By clicking the subscribe button you will never miss the new articles!","subscribed_msg":"You're subscribed to notifications","subscribe_btn":"Subscribe","subscribed_btn":"Unsubscribe"}};
+var publisher_theme_ajax_search_loc = {"ajax_url":"https:\/\/mh1.com.br\/wp-admin\/admin-ajax.php","previewMarkup":"<div class=\"ajax-search-results-wrapper ajax-search-no-product\">\n\t<div class=\"ajax-search-results\">\n\t\t<div class=\"ajax-ajax-posts-list\">\n\t\t\t<div class=\"ajax-posts-column\">\n\t\t\t\t<div class=\"clean-title heading-typo\">\n\t\t\t\t\t<span>Postagens<\/span>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"posts-lists\" data-section-name=\"posts\"><\/div>\n\t\t\t<\/div>\n\t\t<\/div>\n\t\t<div class=\"ajax-taxonomy-list\">\n\t\t\t<div class=\"ajax-categories-columns\">\n\t\t\t\t<div class=\"clean-title heading-typo\">\n\t\t\t\t\t<span>Categorias<\/span>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"posts-lists\" data-section-name=\"categories\"><\/div>\n\t\t\t<\/div>\n\t\t\t<div class=\"ajax-tags-columns\">\n\t\t\t\t<div class=\"clean-title heading-typo\">\n\t\t\t\t\t<span>Tags<\/span>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"posts-lists\" data-section-name=\"tags\"><\/div>\n\t\t\t<\/div>\n\t\t<\/div>\n\t<\/div>\n<\/div>\n","full_width":"0"};
+/* ]]> */
+</script>
+		<div data-rocket-location-hash="bbdaf22566fa6bc35bc710905565b597" class="rh-cover noscroll  no-login-icon" style="background-color: #209aef">
+			<span class="rh-close"></span>
+			<div data-rocket-location-hash="671646b67bb00a3e31fc33b2d1750283" class="rh-panel rh-pm">
+				<div data-rocket-location-hash="e482b85a76f13c48653670640498ae5b" class="rh-p-h">
+									</div>
+
+				<div data-rocket-location-hash="10fa7b66580c0f5e4906f1069fe66745" class="rh-p-b">
+										<div class="rh-c-m clearfix"></div>
+
+											<form role="search" method="get" class="search-form" action="https://mh1.com.br">
+							<input type="search" class="search-field"
+							       placeholder="Pesquisa..."
+							       value="" name="s"
+							       title="Procurar por:"
+							       autocomplete="off">
+							<input type="submit" class="search-submit" value="">
+						</form>
+										</div>
+			</div>
+					</div>
+		<script type="rocketlazyloadscript" data-rocket-type="text/javascript" id="rocket-browser-checker-js-after">
+/* <![CDATA[ */
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket-preload-links-js-extra">
+/* <![CDATA[ */
+var RocketPreloadLinksConfig = {"excludeUris":"\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$|\/(?:.+\/)?embed\/|\/(index.php\/)?(.*)wp-json(\/.*|$)|\/refer\/|\/go\/|\/recommend\/|\/recommends\/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https:\/\/mh1.com.br","onHoverDelay":"100","rateThrottle":"3"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" id="rocket-preload-links-js-after">
+/* <![CDATA[ */
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://mh1.com.br/wp-includes/js/comment-reply.min.js?ver=6.8.3" id="comment-reply-js" async="async" data-wp-strategy="async"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" async="async" data-rocket-src="https://mh1.com.br/wp-content/bs-booster-cache/4dc60b545fb77e63628f09c048940575.js?ver=6.8.3" id="bs-booster-js"></script>
+<script type="rocketlazyloadscript"></script>
+<script>var rocket_beacon_data = {"ajax_url":"https:\/\/mh1.com.br\/wp-admin\/admin-ajax.php","nonce":"8619311e04","url":"https:\/\/mh1.com.br\/uzumaki-decepciona-no-episodio-final-fas-criticam-animacao-desastrosa","is_mobile":false,"width_threshold":1600,"height_threshold":700,"delay":500,"debug":null,"status":{"atf":true,"lrc":true},"elements":"img, video, picture, p, main, div, li, svg, section, header, span","lrc_threshold":1800}</script><script data-name="wpr-wpr-beacon" src='https://mh1.com.br/wp-content/plugins/wp-rocket/assets/js/wpr-beacon.min.js' async></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"276383a0a6b047e5a985cf83a0c19c82","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
