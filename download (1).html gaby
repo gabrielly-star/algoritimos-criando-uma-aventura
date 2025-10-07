@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html  xmlns:fb="http://ogp.me/ns/fb#" xmlns:og="http://ogp.me/ns#" lang="pt-PT">
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-564534-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-564534-1');
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+
+<title>Junji Ito: Histórias Macabras do Japão &#8211; NIJI zine</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//ssl.p.jwpcdn.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="NIJI zine &raquo; Feed" href="https://www.clubotaku.org/niji/feed/" />
+<link rel="alternate" type="application/rss+xml" title="NIJI zine &raquo; Feed de comentários" href="https://www.clubotaku.org/niji/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários de NIJI zine &raquo; Junji Ito: Histórias Macabras do Japão" href="https://www.clubotaku.org/niji/anime/junji-ito-historias-macabras-do-japao/feed/" />
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.clubotaku.org\/nijiwp\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.7"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<link rel='stylesheet' id='bootstrap-css' href='https://www.clubotaku.org/nijiwp/wp-content/themes/greatmag/bootstrap/css/bootstrap.min.css?ver=1' type='text/css' media='all' />
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://www.clubotaku.org/nijiwp/wp-includes/css/dist/block-library/style.min.css?ver=6.4.7' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='cwp-style-css' href='https://www.clubotaku.org/nijiwp/wp-content/plugins/comments-widget-plus/assets/css/cwp.css?ver=1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='greatmag-style-css' href='https://www.clubotaku.org/nijiwp/wp-content/themes/greatmag/style.css?ver=6.4.7' type='text/css' media='all' />
+<style id='greatmag-style-inline-css' type='text/css'>
+.site-title,.site-title a,.site-title a:hover { color:#000000}
+.site-description { color:#999999}
+.site-branding { background-color:#eeeeee}
+.navbar.bgf6 { background-color:#f6f6f6}
+.top-header { background-color:#222222}
+.navbar .navbar-nav > li > a { color:#999999}
+.preloader,.progress-bar,.comment-form .btn:hover, .comment-form .btn:focus,.contact-form .btn,.back-to-page:hover, .back-to-page:focus,.ready-to-contact .btn,.dc2:first-letter,.list-style1 li:before,.navbar .navbar-nav > li .dropdown-menu > li .absp-cat:hover, .navbar .navbar-nav > li .dropdown-menu > li .absp-cat:focus,.absp-cat:hover, .absp-cat:focus,.btn-primary:hover, .btn-primary:focus,.button:hover,button:hover,input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:hover { background-color:#e20a15}
+a:hover,a:focus,.nav>li>a:hover, .nav>li>a:focus,.sidebar-area .widget a:hover,.ps-quote:before,.author-posts-link,.fun-fact .this-icon,.dc1:first-letter,.list-style3 li:before,.list-style2 li:before,.pbc-carousel .owl-prev:hover, .pbc-carousel .owl-prev:focus, .pbc-carousel .owl-next:hover, .pbc-carousel .owl-next:focus, .pbc-carousel2 .owl-prev:hover, .pbc-carousel2 .owl-prev:focus, .pbc-carousel2 .owl-next:hover, .pbc-carousel2 .owl-next:focus, .video-posts-carousel .owl-prev:hover, .video-posts-carousel .owl-prev:focus, .video-posts-carousel .owl-next:hover, .video-posts-carousel .owl-next:focus,.post-title-small:hover, .post-title-small:focus,.post-title-standard:hover, .post-title-standard:focus,.go-top:hover, .go-top:focus,.mob-social-menu li a:hover, .mob-social-menu li a:focus,.off-close,.navbar .navbar-nav > li .dropdown-menu > li .this-title a:hover, .navbar .navbar-nav > li .dropdown-menu > li .this-title a:focus,.section-title .this-title span,.breaking-news.media a:hover, .breaking-news.media a:focus, .review-stars li { color:#e20a15}
+.comment-form .btn:hover, .comment-form .btn:focus,.fun-fact .this-icon,.login-drop { border-color:#e20a15}
+.footer-widgets { background-color:#222222}
+.footer-widgets, .footer-widgets a:not(:hover) { color:#bbbbbb}
+.footer-widgets .widget-title { color:#ffffff}
+.bottom-footer { background-color:#191919}
+.site-info, .site-info a:not(:hover) { color:#ffffff}
+body, .sidebar-area .widget, .sidebar-area .widget a, .sidebar-area .widget select { color:#666666}
+body { font-family:Open Sans;}
+h1,h2,h3,h4,h5,h6,.site-title,.post-title-standard,.post-title-small,.post-title-big { font-family:Lato;}
+.site-title { font-size:24px; }
+.site-description { font-size:16px; }
+body { font-size:14px; }
+.navbar .navbar-nav > li > a { font-size:13px; }
+.post-title-standard { font-size:16px; }
+.entry-title.post-title-big { font-size:24px; }
+.widget-area .widget-title, .footer-widgets .widget-title { font-size:12px; }
+
+</style>
+<link rel='stylesheet' id='greatmag-fonts-css' href='https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C600italic%7CLato%3A400%2C400italic%2C600%2C600italic&#038;subset=latin%2Clatin-ext%2Ccyrillic' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css' href='https://www.clubotaku.org/nijiwp/wp-content/themes/greatmag/fonts/font-awesome.min.css?ver=6.4.7' type='text/css' media='all' />
+<script type="text/javascript" src="https://ssl.p.jwpcdn.com/6/12/jwplayer.js?ver=6.4.7" id="jwplayer-js"></script>
+<script type="text/javascript" src="https://www.clubotaku.org/nijiwp/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://www.clubotaku.org/nijiwp/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="https://www.clubotaku.org/niji/wp-json/" /><link rel="alternate" type="application/json" href="https://www.clubotaku.org/niji/wp-json/wp/v2/posts/32149" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.clubotaku.org/nijiwp/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.4.7" />
+<link rel="canonical" href="https://www.clubotaku.org/niji/anime/junji-ito-historias-macabras-do-japao/" />
+<link rel='shortlink' href='https://www.clubotaku.org/niji/?p=32149' />
+<link rel="alternate" type="application/json+oembed" href="https://www.clubotaku.org/niji/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.clubotaku.org%2Fniji%2Fanime%2Fjunji-ito-historias-macabras-do-japao%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.clubotaku.org/niji/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.clubotaku.org%2Fniji%2Fanime%2Fjunji-ito-historias-macabras-do-japao%2F&#038;format=xml" />
+<script type="text/javascript">jwplayer.defaults = { "ph": 2 };</script>
+            <script type="text/javascript">
+            if (typeof(jwp6AddLoadEvent) == 'undefined') {
+                function jwp6AddLoadEvent(func) {
+                    var oldonload = window.onload;
+                    if (typeof window.onload != 'function') {
+                        window.onload = func;
+                    } else {
+                        window.onload = function() {
+                            if (oldonload) {
+                                oldonload();
+                            }
+                            func();
+                        }
+                    }
+                }
+            }
+            </script>
+
+            <meta property='og:type' content='article' />
+<meta property='og:title' content='Junji Ito: Histórias Macabras do Japão' />
+<meta property='og:url' content='https://www.clubotaku.org/niji/anime/junji-ito-historias-macabras-do-japao/' />
+<meta property='og:description' content='Nestes últimos tempos o nome de Junji Ito tem andado na boca dos fãs portugueses, não só por causa da recente edição do mangá publicado pela editora Devir, mas também pela recente série transmitida na Netflix. O autor de obras icónicas como Uzumaki ou Gyo viu recentemente vários dos seus contos serem transformados em episódios animados. Ao longo de 12 episódios, podemos ver 20 contos da vastíssima obra do grande mestre do terror que podem ser encontrados em vários mangás já lançados pelo autor nos Estados Unidos pela editora VIZ, no Brasil pelas editoras Pipoca e Nanquim ou Devir ou ainda em Espanha, na ECC.  Como falámos anteriormente este anime agrega vários contos publicados em versão mangá e dos quais destacamos por exemplo: “Balões no Ar” (terceiro episódio), Quatro x Quatro Paredes” (quarto episódio) e “Cabelos Longos no Sótão” (quinto episódio), entre outros. O facto de serem histórias independentes dá ao  [ … ]' />
+<meta property='og:site_name' content='NIJI zine' />
+<meta property='fb:app_id' content='189179321110213' />
+<meta property='og:locale' content='pt_PT' />
+<meta property='og:image' content='https://www.clubotaku.org/nijiwp/wp-content/uploads/junjiito_talesofmacabre.jpg' />
+<link rel='image_src' href='https://www.clubotaku.org/nijiwp/wp-content/uploads/junjiito_talesofmacabre.jpg' />
+<meta property='og:image' content='https://www.clubotaku.org/nijiwp/wp-content/uploads/junjiito_talesofmacabre1.jpg' />
+<link rel='image_src' href='https://www.clubotaku.org/nijiwp/wp-content/uploads/junjiito_talesofmacabre1.jpg' />
+<meta property='og:image' content='https://www.clubotaku.org/nijiwp/wp-content/uploads/junjiito_talesofmacabre2.jpg' />
+<link rel='image_src' href='https://www.clubotaku.org/nijiwp/wp-content/uploads/junjiito_talesofmacabre2.jpg' />
+<meta property='og:image' content='https://www.clubotaku.org/nijiwp/wp-content/uploads/junjiito_talesofmacabre3.jpg' />
+<link rel='image_src' href='https://www.clubotaku.org/nijiwp/wp-content/uploads/junjiito_talesofmacabre3.jpg' />
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>		<style type="text/css" id="wp-custom-css">
+			.site-branding  {
+	background-color: #ffffff;
+}
+
+.size-greatmag-featured-a {
+	max-width : inherit !important;
+	width: 146.4% !important
+}
+
+.single.single-post .post-main-image {
+    display: none;
+}
+
+.site-main {
+	border-radius: 15px;
+}
+
+.widget-area {
+	width: 300px;
+}
+
+.footer-widgets{
+	padding: 1px 0px 1px;
+}
+
+		</style>
+		</head>
+
+<body class="post-template-default single single-post postid-32149 single-format-standard wp-custom-logo group-blog">
+<div id="page" data-bodyimg="" class="site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+		<div class="preloader">
+		<div><span>Loading...</span></div>
+	</div>
+					<div class="top-search-form row">
+			<form role="search" method="get" class="search-form" action="https://www.clubotaku.org/niji/">
+				<label>
+					<span class="screen-reader-text">Pesquisar por:</span>
+					<input type="search" class="search-field" placeholder="Pesquisar &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Pesquisar" />
+			</form>		</div>
+				<div class="top-header row">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-8">
+						
+	<div class="media breaking-news">
+		<div class="media-left">
+			<div class="bnews-label">Artigos recentes</div>
+		</div>
+		<div class="media-body">
+			<div class="bnews-ticker">
+							<div class="item"><a href="https://www.clubotaku.org/niji/artigos/imawa-no-kuni-no-arisu/" title="Imawa no Kuni no Arisu">Imawa no Kuni no Arisu</a></div>
+							<div class="item"><a href="https://www.clubotaku.org/niji/anime/ghost-cat-anzu/" title="Ghost Cat Anzu">Ghost Cat Anzu</a></div>
+							<div class="item"><a href="https://www.clubotaku.org/niji/music/tomo-akikawabaya-castle-ii/" title="Tomo Akikawabaya &#8211; Castle II">Tomo Akikawabaya &#8211; Castle II</a></div>
+							<div class="item"><a href="https://www.clubotaku.org/niji/manga/sendai-editora-prepara-se-para-lancar-o-17o-manga/" title="Sendai Editora prepara-se para lançar o 17º mangá">Sendai Editora prepara-se para lançar o 17º mangá</a></div>
+							<div class="item"><a href="https://www.clubotaku.org/niji/games/dragon-ball-sparking-zero-sai-em-novembro/" title="DRAGON BALL: SPARKING! ZERO sai em Novembro">DRAGON BALL: SPARKING! ZERO sai em Novembro</a></div>
+									</div>
+		</div>
+	</div>
+
+						</div>
+					<div class="col-sm-4 auth-social">
+							<ul class="nav nav-pills auth-social-nav">
+		
+				<li class="search-top"><a href="#"><i class="fa fa-search"></i></a></li>
+		
+						<li><a href="https://twitter.com/club_otaku"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://www.facebook.com/ClubOtakuPt"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://www.youtube.com/user/ClubOtaku"><i class="fa fa-youtube-play"></i></a></li>
+		
+	</ul>
+						</div>
+				</div>
+			</div>
+		</div>
+		<header id="masthead" class="site-header">
+
+			<div class="site-branding vhome3 row m0">
+			<div class="container">
+				<div class="main-logo">
+					<div class="media">
+												<div class="media-left">
+							<div itemscope itemtype="https://schema.org/Brand"><a href="https://www.clubotaku.org/niji/" class="custom-logo-link" rel="home"><img width="129" height="126" src="https://www.clubotaku.org/nijiwp/wp-content/uploads/co_logo.png" class="custom-logo" alt="NIJI zine" decoding="async" srcset="https://www.clubotaku.org/nijiwp/wp-content/uploads/co_logo.png 129w, https://www.clubotaku.org/nijiwp/wp-content/uploads/co_logo-50x50.png 50w" sizes="(max-width: 129px) 100vw, 129px" /></a></div>						</div>
+												<div class="media-body">
+															<p class="site-description site-slogan">O japão totalmente em português</p>
+															<p class="site-title"><a href="https://www.clubotaku.org/niji/" rel="home">NIJI zine</a></p>
+													</div>
+					</div>
+				</div>
+							</div>
+		</div><!-- .site-branding -->
+			<nav id="site-navigation" class="navbar navbar-static-top navbar-default main-navigation bgf6">
+			<div class="container">
+				<div class="row">
+
+								        <div class="collapse navbar-collapse"><ul id="menu-navigation" class="nav navbar-nav"><li id="menu-item-8344" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8344"><a title="Notícias" href="https://www.clubotaku.org/niji/category/noticias/">Notícias</a></li>
+<li id="menu-item-8345" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-8345"><a title="Artigos" href="https://www.clubotaku.org/niji/category/artigos/">Artigos</a></li>
+<li id="menu-item-8365" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-8365"><a title="Anime" href="https://www.clubotaku.org/niji/category/anime/">Anime</a></li>
+<li id="menu-item-8366" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8366"><a title="Manga" href="https://www.clubotaku.org/niji/category/manga/">Manga</a></li>
+<li id="menu-item-8370" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8370"><a title="Jogos" href="https://www.clubotaku.org/niji/category/games/">Jogos</a></li>
+<li id="menu-item-8368" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8368"><a title="Música" href="https://www.clubotaku.org/niji/category/music/">Música</a></li>
+<li id="menu-item-8369" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8369"><a title="Cinema" href="https://www.clubotaku.org/niji/category/cinem/">Cinema</a></li>
+<li id="menu-item-8367" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8367"><a title="Cultura" href="https://www.clubotaku.org/niji/category/cultu/">Cultura</a></li>
+<li id="menu-item-8371" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8371"><a title="Sociedade" href="https://www.clubotaku.org/niji/category/socie/">Sociedade</a></li>
+</ul></div>					<button class="off-canvas-trigger" aria-controls="primary" aria-expanded="false">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+									</div>
+			</div>
+		</nav><!-- #site-navigation -->
+			<div class="off-close outer"></div>
+		<div class="off-canvas row">
+			<div class="off-logo-box off-widget">
+				<button class="off-close"><i class="fa fa-times"></i></button><br>
+				<a class="off-logo" href="https://www.clubotaku.org/niji/" rel="home">
+											<p class="site-description site-slogan">O japão totalmente em português</p>
+										<h4 class="site-title">NIJI zine</h4>
+				</a>
+			</div>
+			<div class="mob-menu-box1 off-widget">
+			        <ul id="menu-navigation-1" class="nav navbar-nav mob-menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8344"><a title="Notícias" href="https://www.clubotaku.org/niji/category/noticias/">Notícias</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-8345"><a title="Artigos" href="https://www.clubotaku.org/niji/category/artigos/">Artigos</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-8365"><a title="Anime" href="https://www.clubotaku.org/niji/category/anime/">Anime</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8366"><a title="Manga" href="https://www.clubotaku.org/niji/category/manga/">Manga</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8370"><a title="Jogos" href="https://www.clubotaku.org/niji/category/games/">Jogos</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8368"><a title="Música" href="https://www.clubotaku.org/niji/category/music/">Música</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8369"><a title="Cinema" href="https://www.clubotaku.org/niji/category/cinem/">Cinema</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8367"><a title="Cultura" href="https://www.clubotaku.org/niji/category/cultu/">Cultura</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8371"><a title="Sociedade" href="https://www.clubotaku.org/niji/category/socie/">Sociedade</a></li>
+</ul>			</div>
+		</div>
+	
+	</header><!-- #masthead -->
+	
+	<div id="content" class="site-content">
+		<div class="container">
+			<div class="row">
+
+	<div id="primary" class="content-area col-md-8">
+		<main id="main" class="site-main">
+
+		
+
+<article id="post-32149" class="post-32149 post type-post status-publish format-standard has-post-thumbnail hentry category-anime category-artigos tag-historias-macabras-do-japao tag-junji-ito tag-netflix">
+
+		<div class="single-post-cats">
+		<a class="absp-cat prltv" style="background-color:#ec0000;" href="https://www.clubotaku.org/niji/category/anime/" title="Anime">Anime</a><a class="absp-cat prltv" style="background-color:#908e8e;" href="https://www.clubotaku.org/niji/category/artigos/" title="Artigos">Artigos</a>	</div>
+	
+	<header class="entry-header">
+		<h1 class="entry-title post-title-big">Junji Ito: Histórias Macabras do Japão</h1>		<div class="entry-meta">
+			<h5 class="post-meta"><a href="https://www.clubotaku.org/niji/author/t3tsuo/" class="author vcard">t3tsuo</a>  -  <a href="https://www.clubotaku.org/niji/anime/junji-ito-historias-macabras-do-japao/" class="date"><time class="entry-date published updated" datetime="2023-01-31T21:39:25-01:00">31 de Janeiro de 2023</time></a></h5>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+	<div class="post-main-image row text-center">
+		<img width="710" height="322" src="https://www.clubotaku.org/nijiwp/wp-content/uploads/junjiito_talesofmacabre-710x322.jpg" class="attachment-greatmag-single size-greatmag-single wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.clubotaku.org/nijiwp/wp-content/uploads/junjiito_talesofmacabre-710x322.jpg 710w, https://www.clubotaku.org/nijiwp/wp-content/uploads/junjiito_talesofmacabre-600x272.jpg 600w, https://www.clubotaku.org/nijiwp/wp-content/uploads/junjiito_talesofmacabre-1024x464.jpg 1024w, https://www.clubotaku.org/nijiwp/wp-content/uploads/junjiito_talesofmacabre-768x348.jpg 768w, https://www.clubotaku.org/nijiwp/wp-content/uploads/junjiito_talesofmacabre.jpg 1280w" sizes="(max-width: 710px) 100vw, 710px" />	</div>
+
+	<div class="entry-content">
+		<p>Nestes últimos tempos o nome de Junji Ito tem andado na boca dos fãs portugueses, não só por causa da recente edição do mangá publicado pela editora Devir, mas também pela recente série transmitida na Netflix.</p>
+<p>O autor de obras icónicas como Uzumaki ou Gyo viu recentemente vários dos seus contos serem transformados em episódios animados. Ao longo de 12 episódios, podemos ver 20 contos da vastíssima obra do grande mestre do terror que podem ser encontrados em vários mangás já lançados pelo autor nos Estados Unidos pela editora VIZ, no Brasil pelas editoras Pipoca e Nanquim ou Devir ou ainda em Espanha, na ECC.</p>
+<p><img loading="lazy" decoding="async" src="https://www.clubotaku.org/nijiwp/wp-content/uploads/junjiito_talesofmacabre1.jpg" alt="" width="1280" height="580" class="aligncenter size-full wp-image-32152" srcset="https://www.clubotaku.org/nijiwp/wp-content/uploads/junjiito_talesofmacabre1.jpg 1280w, https://www.clubotaku.org/nijiwp/wp-content/uploads/junjiito_talesofmacabre1-600x272.jpg 600w, https://www.clubotaku.org/nijiwp/wp-content/uploads/junjiito_talesofmacabre1-1024x464.jpg 1024w, https://www.clubotaku.org/nijiwp/wp-content/uploads/junjiito_talesofmacabre1-768x348.jpg 768w, https://www.clubotaku.org/nijiwp/wp-content/uploads/junjiito_talesofmacabre1-710x322.jpg 710w" sizes="(max-width: 1280px) 100vw, 1280px" /></p>
+<p>Como falámos anteriormente este anime agrega vários contos publicados em versão mangá e dos quais destacamos por exemplo: “Balões no Ar” (terceiro episódio), Quatro x Quatro Paredes” (quarto episódio) e “Cabelos Longos no Sótão” (quinto episódio), entre outros. O facto de serem histórias independentes dá ao espectador uma liberdade para assistir os episódios por qualquer ordem e também conhecer o vasto espectro de diferentes tipos de narativas que Junji Ito consegue criar.</p>
+<p>No entanto, em Histórias Macabras do Japão temos alguns episódios divididos em duas histórias o que faz com que cada uma tenha metade do tempo face a um episódio normal (22 minutos) e é aqui que começam os pontos negativos. Os melhores contos ficam prejudicados ao dividirem o tempo do episódio com outro e também este combo &#8220;dois em um&#8221; leva o espectador a fazer comparações entre episódios o que não é bom neste tipo de série.</p>
+<p><img loading="lazy" decoding="async" src="https://www.clubotaku.org/nijiwp/wp-content/uploads/junjiito_talesofmacabre2.jpg" alt="" width="1280" height="580" class="aligncenter size-full wp-image-32153" srcset="https://www.clubotaku.org/nijiwp/wp-content/uploads/junjiito_talesofmacabre2.jpg 1280w, https://www.clubotaku.org/nijiwp/wp-content/uploads/junjiito_talesofmacabre2-600x272.jpg 600w, https://www.clubotaku.org/nijiwp/wp-content/uploads/junjiito_talesofmacabre2-1024x464.jpg 1024w, https://www.clubotaku.org/nijiwp/wp-content/uploads/junjiito_talesofmacabre2-768x348.jpg 768w, https://www.clubotaku.org/nijiwp/wp-content/uploads/junjiito_talesofmacabre2-710x322.jpg 710w" sizes="(max-width: 1280px) 100vw, 1280px" /></p>
+<p>Quanto ao estilo de animação (produzido pelo Studio Deen) o design de personagens é fraco comparado com a brutalissima arte de Junji Ito e fica muito àquem do que muitos fãs esperavam. Isto porque, há uns anos saiu também uma série baseada nos contos de Junji Ito e os fãs criticaram severamente a série, pelo que era de esperar que esta fosse muito melhor.</p>
+<p>A animação em geral é fraquíssima (parece mesmo que quiseram despachar o mais rápido possível para cumprir prazos da Netflix), a paleta cromática e o uso da cor às vezes não faz sentido nenhum ou é mal usada. Contudo há excepções. Existem alguns episódios que estão bons e há poucas coisas a apontar, por este motivo não entendemos a incoerência entre os vários episódios.</p>
+<p>O formato de antologia permite perceber como a obra de Junji Ito brinca com diferentes géneros, da comédia ao drama, do pesadelo às mutações corporais e com um toque de terror. Mas a decisão narrativa da Netflix prova-se também uma armadilha ao cair em altos e baixos na qualidade dos episódios.</p>
+<p><img loading="lazy" decoding="async" src="https://www.clubotaku.org/nijiwp/wp-content/uploads/junjiito_talesofmacabre3.jpg" alt="" width="1280" height="580" class="aligncenter size-full wp-image-32154" srcset="https://www.clubotaku.org/nijiwp/wp-content/uploads/junjiito_talesofmacabre3.jpg 1280w, https://www.clubotaku.org/nijiwp/wp-content/uploads/junjiito_talesofmacabre3-600x272.jpg 600w, https://www.clubotaku.org/nijiwp/wp-content/uploads/junjiito_talesofmacabre3-1024x464.jpg 1024w, https://www.clubotaku.org/nijiwp/wp-content/uploads/junjiito_talesofmacabre3-768x348.jpg 768w, https://www.clubotaku.org/nijiwp/wp-content/uploads/junjiito_talesofmacabre3-710x322.jpg 710w" sizes="(max-width: 1280px) 100vw, 1280px" /></p>
+<p>Em conclusão, Histórias Macabras do Japão não oferece nada de novo aos fãs do mangaka, contudo é sempre uma experiência ver a obra deste ímpar autor em formato animado e para os que nunca tiveram o contacto com o autor penso que poderá ser uma boa porta de entrada, mas nunca descurando ler um mangá dele. Por isso, se têm umas boas 4 horas livres, não hesitem e dêem uma oportunidade.</p>
+<p><strong>Escrito por: Fernando Ferreira</strong></p>
+	</div><!-- .entry-content -->
+
+		<footer class="entry-footer">
+		<span class="tags-links">Tagged <a href="https://www.clubotaku.org/niji/tag/historias-macabras-do-japao/" rel="tag">Histórias Macabras do Japão</a>, <a href="https://www.clubotaku.org/niji/tag/junji-ito/" rel="tag">Junji Ito</a>, <a href="https://www.clubotaku.org/niji/tag/netflix/" rel="tag">Netflix</a></span>	</footer><!-- .entry-footer -->
+			
+</article><!-- #post-## -->
+
+	<nav class="navigation post-navigation" aria-label="Artigos">
+		<h2 class="screen-reader-text">Navegação de artigos</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="https://www.clubotaku.org/niji/artigos/maiko-san-chino-makanai-san/" rel="prev">Maiko-san chino makanai-san</a></div><div class="nav-next"><a href="https://www.clubotaku.org/niji/cinem/monstra-ja-anunciou-o-programa-do-festival/" rel="next">Monstra já anunciou o programa do Festival</a></div></div>
+	</nav>
+<div id="comments" class="comments-area">
+
+		<div id="respond" class="comment-respond">
+		<h6 class="post-cat big-bline"><span class="ispan"><span class="dark-dec">Deixe um comentário <small><a rel="nofollow" id="cancel-comment-reply-link" href="/niji/anime/junji-ito-historias-macabras-do-japao/#respond" style="display:none;">Cancelar resposta</a></small></span></span></h6><form action="https://www.clubotaku.org/nijiwp/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate><p class="comment-notes"><span id="email-notes">O seu endereço de email não será publicado.</span> <span class="required-field-message">Campos obrigatórios marcados com <span class="required">*</span></span></p><p class="comment-form-comment"><textarea placeholder="Comment" id="comment" class="form-control" name="comment" cols="45" rows="8" aria-required="true"></textarea></p><div id="comment-user-details"><div id="alt-login-methods"><p><fb:login-button v="2" scope="email,publish_stream" onlogin="sfc_update_user_details();">Connect with Facebook</fb:login-button></p></div><div class="row"><div class="col-sm-6"><input placeholder="Name*" id="author" name="author" class="form-control" type="text" value="" size="30" aria-required='true' /></div>
+<div class="col-sm-6"><input id="email" placeholder="Email*" name="email" class="form-control" type="text" value="" size="30" aria-required='true' /></div></div>
+<input id="url" placeholder="Website" name="url" class="form-control" type="text" value="" size="30" />
+</div><p class="form-submit"><input name="submit" type="submit" id="submit" class="submit btn" value="Publicar comentário" /> <input type='hidden' name='comment_post_ID' value='32149' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="fb0f2e9538" /></p><p id="sfc_comm_send"></p><p style="display: none !important;"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="123"/><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>	</div><!-- #respond -->
+	<p class="akismet_comment_form_privacy_notice">Este site utiliza o Akismet para reduzir spam. <a href="https://akismet.com/privacy/" target="_blank" rel="nofollow noopener"> Fica a saber como são processados os dados dos comentários</a>.</p>
+</div><!-- #comments -->
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+<aside id="secondary" class="widget-area col-md-4 sidebar-area" role="complementary">
+	<section id="media_image-8" class="widget widget_media_image"><a href="https://www.youtube.com/user/ClubOtaku"><img width="275" height="342" src="https://www.clubotaku.org/nijiwp/wp-content/uploads/nijitvbanner.jpg" class="image wp-image-20220  attachment-full size-full" alt="" style="max-width: 100%; height: auto;" decoding="async" loading="lazy" srcset="https://www.clubotaku.org/nijiwp/wp-content/uploads/nijitvbanner.jpg 275w, https://www.clubotaku.org/nijiwp/wp-content/uploads/nijitvbanner-241x300.jpg 241w" sizes="(max-width: 275px) 100vw, 275px" /></a></section><section id="media_image-10" class="widget widget_media_image"><h2 class="widget-title">MiMi Records</h2><a href="https://mimirecords.bandcamp.com/album/judy-ep"><img width="275" height="342" src="https://www.clubotaku.org/nijiwp/wp-content/uploads/mimi_banner_outnow-50.jpg" class="image wp-image-33402  attachment-full size-full" alt="" style="max-width: 100%; height: auto;" title="MiMi Records" decoding="async" loading="lazy" srcset="https://www.clubotaku.org/nijiwp/wp-content/uploads/mimi_banner_outnow-50.jpg 275w, https://www.clubotaku.org/nijiwp/wp-content/uploads/mimi_banner_outnow-50-241x300.jpg 241w" sizes="(max-width: 275px) 100vw, 275px" /></a></section><section id="recent-comments-5" class="widget widget_recent_comments"><h2 class="widget-title">Comentários recentes</h2><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link">maria</span> em <a href="https://www.clubotaku.org/niji/music/visual-kei/#comment-111664">Visual Kei</a></li><li class="recentcomments"><span class="comment-author-link"><a href="http://Oi" class="url" rel="ugc external nofollow">alef</a></span> em <a href="https://www.clubotaku.org/niji/socie/anime-chat-nova-comunidade-online-de-fs-de-anime/#comment-111518">Anime Chat &#8211; A nova comunidade online de fãs de anime</a></li><li class="recentcomments"><span class="comment-author-link">Mauro machado</span> em <a href="https://www.clubotaku.org/niji/anime/cleopatra-d-c/#comment-111505">Cleopatra D.C.</a></li><li class="recentcomments"><span class="comment-author-link"><a href="http://www.clubotaku.org" class="url" rel="ugc">t3tsuo</a></span> em <a href="https://www.clubotaku.org/niji/manga/revista-dangan-em-formato-fisico/#comment-111325">Revista DANGAN em formato físico</a></li><li class="recentcomments"><span class="comment-author-link">steele fan</span> em <a href="https://www.clubotaku.org/niji/manga/revista-dangan-em-formato-fisico/#comment-111294">Revista DANGAN em formato físico</a></li><li class="recentcomments"><span class="comment-author-link"><a href="http://www.clubotaku.org" class="url" rel="ugc">t3tsuo</a></span> em <a href="https://www.clubotaku.org/niji/manga/editora-devir-lanca-dragonball/#comment-111163">Editora Devir lança Dragonball</a></li></ul></section><section id="kanji_widget-8" class="widget widget_kanji_widget"><h3></h3><div class="widget-body clear"><img src="/kanji/kanji004.gif" width=275 border=0 style="border-width:1px; border-style:solid;">
+</section></aside><!-- #secondary -->
+
+			</div>
+		</div><!-- .container -->
+	</div><!-- #content -->
+
+		
+	<footer id="colophon" class="site-footer">
+				<div class="row bottom-footer" id="bottom-footer">
+			<div class="container">
+				<div class="site-info"><a href="https://wordpress.org/">Powered by WordPress</a><span class="sep"> | </span>Theme: <a href="https://athemes.com/theme/greatmag">Greatmag</a> by aThemes.</div>
+				<nav id="footer-navigation" class="footer-navigation footer-menu-box">
+									</nav>
+			</div>
+		</div>
+		</footer><!-- #colophon -->
+
+	</div><!-- #page -->
+
+<script type="text/javascript" src="https://www.clubotaku.org/nijiwp/wp-includes/js/imagesloaded.min.js?ver=5.0.0" id="imagesloaded-js"></script>
+<script type="text/javascript" src="https://www.clubotaku.org/nijiwp/wp-content/themes/greatmag/js/scripts.js?ver=6.4.7" id="greatmag-scripts-js"></script>
+<script type="text/javascript" src="https://www.clubotaku.org/nijiwp/wp-content/themes/greatmag/js/main.min.js?ver=20180320" id="greatmag-main-js"></script>
+<!--[if lt IE 9]>
+<script type="text/javascript" src="https://www.clubotaku.org/nijiwp/wp-content/themes/greatmag/js/html5shiv.js?ver=6.4.7" id="greatmag-html5shiv-js"></script>
+<![endif]-->
+<script type="text/javascript" src="https://www.clubotaku.org/nijiwp/wp-includes/js/comment-reply.min.js?ver=6.4.7" id="comment-reply-js" async="async" data-wp-strategy="async"></script>
+<script defer type="text/javascript" src="https://www.clubotaku.org/nijiwp/wp-content/plugins/akismet/_inc/akismet-frontend.js?ver=1690125792" id="akismet-frontend-js"></script>
+<div id="fb-root"></div>
+<script type="text/javascript">
+  window.fbAsyncInit = function() {
+    FB.init({"appId":"189179321110213","channelUrl":"https:\/\/www.clubotaku.org\/niji\/?sfc-channel-file=1","status":true,"cookie":true,"xfbml":true,"oauth":true});
+    sfc_update_user_details();
+  };
+  (function(d){
+       var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
+       js = d.createElement('script'); js.id = id; js.async = true;
+       js.src = "//connect.facebook.net/pt_PT/all.js";
+       d.getElementsByTagName('head')[0].appendChild(js);
+   }(document));     
+</script>
+<style type="text/css">
+#fb-user { border: 1px dotted #C0C0C0; padding: 5px; display: block; }
+#fb-user .fb_profile_pic_rendered { margin-right: 5px; float:left; }
+#fb-user .end { display:block; height:0px; clear:left; }
+</style>
+
+<script type="text/javascript">
+function sfc_update_user_details() {
+	FB.getLoginStatus(function(response) {
+		if (response.authResponse) {
+			// Show their FB details TODO this should be configurable, or at least prettier...
+			if (!jQuery('#fb-user').length) {
+				jQuery('#comment-user-details').hide().after("<span id='fb-user'>" +
+				"<fb:profile-pic uid='loggedinuser' facebook-logo='true' size='s'></fb:profile-pic>" +
+				"<span id='fb-msg'><strong>Hi<fb:name uid='loggedinuser' useyou='false'></fb:name>!</strong><br />You are connected with your Facebook account." +
+				"<a href='#' onclick='FB.logout(function(response) { window.location = \"https://www.clubotaku.org/niji/anime/junji-ito-historias-macabras-do-japao/\"; }); return false;'> Logout</a>" +
+				"</span><span class='end'></span></span>" + 
+				"<input type='hidden' name='sfc_user_id' value='"+response.authResponse.userID+"' />"+
+				"<input type='hidden' name='sfc_user_token' value='"+response.authResponse.accessToken+"' />");
+				jQuery('#sfc_comm_send').html('<input style="width: auto;" type="checkbox" id="sfc_comm_share" name="sfc_comm_share" /><label for="sfc_comm_share">Share Comment on Facebook</label>');
+			}
+
+			// Refresh the DOM
+			FB.XFBML.parse();
+		} 
+	});
+}
+</script>
+
+</body>
+</html>
